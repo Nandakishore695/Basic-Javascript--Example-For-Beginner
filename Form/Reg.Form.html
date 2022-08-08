@@ -4,24 +4,63 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Test2</title>
 </head>
-<body>
-    <div>
-        
-        <label>FName:</label>
-        <input type="text" id="dfname" placeholder="Fastname" />
-        <label>LName:</label>
-        <input type="text" id="dlname" placeholder="Lastname" /><br />
-        <label>Age:</label>
+<body>       
+        <label>A1</label>
+        <input type="text" id="dfname" placeholder="Fastname" required minlength="4" maxlength="8" />
+        <label>A2</label>
+        <input type="text" id="dlname" placeholder="Lastname" required minlength="4" maxlength="8"/><br /><br>
+        <label>A3<label>
         <input type="number" id="dage" placeholder="your age" />
-        <label>Gender:</label>
-        <input type="radio" name="gender" id="dmale" value="Male"/>male
+        <label>A4</label>
+        <input type="radio" name="gender" id="dmale" value="Male"/>Male
         <input type="radio" name="gender" id="dfemale" value="FeMale"/>Female<br />
-        <option id="country">
-        </option>
+        <label>A5</label>
+        <!-- <select id="country">
+        </select> -->
+        
+        <!-- <select>
+        </select><br>  -->
+        <select id="countrySelect" onchange="makeSubmenu(this.value)">
+          <option value="" disabled selected>Choose State</option>
+          <option>India</option>
+          <option>Usa</option>
+          
+          </select>
+          <label>A6</label>
+          <select id="citySelect" >
+          <option value="" disabled selected>Choose City</option>
+          
+          </select>
+        <label>A7`</label>
+        <textarea id="address"></textarea>
         <button type="submit" onclick="formSaveData()">Submit</button>
-      </div>
-      <script src="../Form/Reg.Form.js"></script>
+        <br>
+        <br>
+      <table border="">
+        <tr>
+          <th>A1</th>
+          <th>A2</th>
+          <th>A3</th>
+          <th>A4</th>
+          <th>A5</th>
+          <th>A6</th>
+          <th>A7</th>
+          <th>A8</th>
+        </tr>
+        <tr>
+          <td id="fnames">Akshay</td>
+          <td id="lnames">Gopal</td>
+          <td id="age">22</td>
+          <td id="gen">Male</td>
+          <td id="ctrys">India</td>
+          <td id="citys">Telangana</td>
+          <td id="addr">13-22-401,Ameerpet,Hyderabad.</td>
+          <td id="boolean">True</td>
+
+        </tr>
+      </table>
+      <script src="../Form/FormValidation.js"></script>
 </body>
 </html>
