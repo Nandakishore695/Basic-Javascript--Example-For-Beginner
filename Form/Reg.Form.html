@@ -6,32 +6,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Test2</title>
 </head>
-<body>       
+<body>   
+  <form name="FormData">
         <label><b>A1</b></label>
-        
-        <input type="text" id="dfname" placeholder="Fastname"  maxlength="8" /><span id="errorFName"></span>
+        <input type="text" id="dfname" placeholder="Fastname" /><span style="color: red" id="errorFName"  aria-hidden="true"></span>
         <label><b>A2</b></label>
-        <input type="text" id="dlname" placeholder="Lastname" required minlength="4" maxlength="8"/><span id="errorLName"></span><br /><br>
+        <input type="text" id="dlname" placeholder="Lastname" /><span style="color: red" id="errorLName"></span><br /><br>
         <label><b>A3</b><label>
-        <input type="number" id="dage" placeholder="your age" /><span id="errorAge"></span>
+        <input type="number" id="dage" placeholder="your age" /><span style="color: red" id="errorAge"></span>
         <label><b>A4</b></label>
         <input type="radio" name="gender" id="dmale" value="Male"/>Male
         <input type="radio" name="gender" id="dfemale" value="FeMale"/>Female
-        <span id="errorRadio"></span><br />
+        <span style="color: red" id="errorRadio"></span><br />
         <label><b>A5</b></label>
         <select id="countrySelect" onchange="makeSubmenu(this.value)">
           <option value="" disabled selected>Choose State</option>
           <option>India</option>
           <option>Usa</option>
-          </select>
+          </select><span style="color: red" id="errorCountry"></span>
           <label><b>A6</b></label>
           <select id="citySelect" >
           <option value="" disabled selected>Choose City</option>
           
-          </select>
+          </select><span style="color: red" id="errorCity"></span>
         <label><b>A7</b></label>
-        <textarea id="address"></textarea><span id="errorAddress"></span>
-        <button type="submit" onclick="formSaveData()">Submit</button>
+        <textarea id="address"></textarea><span style="color: red" id="errorAddress"></span>
+        <button type="button" onclick="formSaveData()">Submit</button>
         <br>
         <br>
       <table  border="">
@@ -56,6 +56,8 @@
           <td id="boolean">True</td> -->
         </tbody>
       </table>
+    </form>
+
       <script src="../Form/Reg.Form.js"></script>
 </body>
 </html>
