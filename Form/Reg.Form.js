@@ -1,39 +1,63 @@
 function formSaveData() {
-
+  
+  //Retreving the values
   let fname = document.getElementById("dfname").value;
-  if (fname == "") {
-    document.getElementById("errorFName").innerHTML = "pls provide Firstname";
-  }
   let lname = document.getElementById("dlname").value;
+  let age = document.getElementById("dage").value;
+  let result = age >= 18 ? "True" : "False";
+  let address = document.getElementById("address").value;
+  let  country = document.getElementById("countrySelect").value;
+  let city = document.getElementById("citySelect").value;
+
+  //Validation
+  let errorLName = document.getElementById("errorLName");
+  if (fname == ''){
+    document.getElementById("errorFName").innerHTML = "pls provide Firstname";    
+    return false;
+  }
+
   if (lname == "") {
     document.getElementById("errorLName").innerHTML = "pls provide Lastname";
+    return false;
   }
-  let age = document.getElementById("dage").value;
   if (age == "") {
     document.getElementById("errorAge").innerHTML = "pls provide your age";
+    return false;
   }
-  
-  let address = document.getElementById("address").value;
   if (address == "") {
-    document.getElementById("errorAddress").innerHTML =
-      "pls provide your address";
+    document.getElementById("errorAddress").innerHTML ="pls provide your address";
+    return false;
   }
-  let result = age >= 18 ? "True" : "False";
-
+  if(result == ''){
+    document.getElementById('errorRadio').innerHTML= '** pls select any one';
+    return false;
+  }
+  if (country == "") {
+    document.getElementById("errorCountry").innerHTML ="pls provide your address";
+    return false;
+  }
+  if (city == "") {
+    document.getElementById("errorCity").innerHTML ="pls provide your address";
+    return false;
+  }
+      
   let gender = document.getElementsByName("gender");
+  
   let txt = '';
   for (let i = 0; i < gender.length; i++) {
     if (gender[i].checked==true) {
       txt= gender[i].value;
-    }
-    else if(gender == ''){
-      document.getElementById('errorRadio').innerHTML= '** pls select any one';
-    }    
+    }  
+    
   }
-  console.log(fname, lname, result, age, address,txt);
-
-  let  country = document.getElementById("countrySelect").value;
-  let city = document.getElementById("citySelect").value;
+ if(txt == '')
+    {
+      document.getElementById("errorRadio").innerHTML ="pls select any one";
+      return false;
+    } 
+ 
+  
+//data binding to Table 
   let tr = document.createElement("tr");
   let td1 = tr.appendChild(document.createElement("td"));
   let td2 = tr.appendChild(document.createElement("td"));
@@ -53,12 +77,15 @@ function formSaveData() {
   td7.innerHTML = address;
   td8.innerHTML = result;
   document.getElementById("tab").appendChild(tr);
+  document.FormData.reset(); 
 }
 
 var citiesByState = {
   India: ["Telangana", "Karnataka", "Tamilnadu"],
   Usa: ["Vega", "Inidya", "Wasinton dc"],
 };
+
+
 function makeSubmenu(value) {
   if (value.length == 0) document.getElementById("citySelect").innerHTML;
   else {
