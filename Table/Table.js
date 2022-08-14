@@ -1,50 +1,70 @@
-let mainObj = [
-  { name: "Akshay", age: "22", phone: "7852582470", courses: "Javascript" },
-  { name: "Rohan", age: "19", phone: "7893930210", courses: "Javascript" },
-  { name: "Naidu", age: "27", phone: "7900058247", courses: "Javascript" },
-];
-const tableData = mainObj
-  .map(function (value) {
-    return `<tr id ="1name">
-<td >${value.name}</td>
-<td>${value.age}</td>
-<td>${value.phone}</td>
-<td>${value.courses}</td>
-</tr>`;
-  })
-  .join("");
-document.getElementById("idTable").innerHTML = tableData;
+function valueBinding() {
+  let value1 = document.getElementById("boxValue1").value;
+  let value2 = document.getElementById("boxValue2").value;
 
-document.getElementById("Hide_Show").hidden = true;
-function inputCheck() {
-  let checkedValue = document.getElementById("checked").value;
-  for (let i = 0; i < mainObj.length; i) {
-    if (checkedValue === mainObj[i].name) {
-      document.getElementById("turechecked").value = checkedValue;
-      document.getElementById("Hide_Show").hidden = false;
-    } else {
-      document.getElementById("invalid").value = "** Invalid";
+  if (value1 == "" || value2 == "") {
+    window.alert("please Enter value");
+  }  
+
+  //adding two value
+  if (value1 >= 0 || value2 <= 10000) {
+    let sum = parseFloat(value1) + parseFloat(value2);
+    document.getElementById("result").value = sum;
+  } else if (value1 >= -0 || value2 >= -100000) {
+    let sum = parseFloat(value1) - parseFloat(value2);
+    document.getElementById("result").value = sum;
+  }
+  else {
+    let concatValue = value1.toString(value2);
+    document.getElementById("result").value = String("" + concatValue);
+  }
+}
+function valueToFixed() {
+  document.getElementById("result1").value = '';
+    let value1 = parseFloat(document.getElementById("oneFixed").value);
+    let value2 = parseFloat(document.getElementById("twoFixed").value);
+    if (value1 == "" || value2 == "") {
+      document.getElementById("error").innerHTML = "invalid";
     }
+    let fixedValue = value1.toFixed(value2);
+    document.getElementById("result1").value = fixedValue;
+}
+
+let manObj = [{name:"Naidu",age:25},{name:"pickBro",age:25}];
+
+const tableData = manObj.map(function(value){
+  return `<tr>
+      <td>${value.name}</td>
+      <td>${value.age}</td>
+  </tr>`
+}).join("");
+document.getElementById('tableId').innerHTML =tableData;
+
+
+document.getElementById('hidden/show').hidden=true;
+
+function checkFun(){
+  let vauleGet = document.getElementById('valueGet').value;
+  let indexPosition = null;
+  if(vauleGet){
+    let listdata =manObj.filter(function(value,index){
+      indexPosition = index;
+      return value.name == vauleGet;
+    })[0];
+    if(indexPosition){
+      document.getElementById('hidden/show').hidden=false;  
+      document.getElementById('errorCheck').innerHTML = "plse invalid";
+    }
+    console.log(listdata);
+    console.log(indexPosition);
+    document.getElementById('errorCheck').innerHTML = "";
+  }
+  else{
+    document.getElementById('errorCheck').innerHTML = "Pls select one";
   }
 }
 
-function slice() {
-  let renameValue = document.getElementById("checked2").value;
-  for (i = 0; i < mainObj.length; i++) {
-    if (renameValue === mainObj[i].name) {
-      document.getElementById("1name").remove([renameValue]);
-    }
-  }
-}
-
-function updateFun() {
-  let oneValue = document.getElementById("checked").value;
-  let renameValue = document.getElementById("turechecked").value;
-  for (var i = 0; i < mainObj.length; i++) {
-    if (oneValue == mainObj[i].name) {
-      let holdValue = (mainObj[i].FirstName = renameValue);
-      let h = (document.getElementById("demo3").value = holdValue);
-      document.getElementById("row2").innerHTML = h;
-    }
-  }
+function spliceFun(){
+  let vauleGet = document.getElementById('valueGet').value;
+  
 }
