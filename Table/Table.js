@@ -29,9 +29,8 @@ function valueToFixed() {
     let fixedValue = value1.toFixed(value2);
     document.getElementById("result1").value = fixedValue;
 }
-
+//Table Creating 
 let manObj = [{name:"Naidu",age:25},{name:"pickBro",age:25}];
-
 const tableData = manObj.map(function(value){
   return `<tr>
       <td>${value.name}</td>
@@ -42,29 +41,62 @@ document.getElementById('tableId').innerHTML =tableData;
 
 
 document.getElementById('hidden/show').hidden=true;
+let indexPosition = null;
 
+//Name checking function 
 function checkFun(){
   let vauleGet = document.getElementById('valueGet').value;
-  let indexPosition = null;
   if(vauleGet){
     let listdata =manObj.filter(function(value,index){
-      indexPosition = index;
-      return value.name == vauleGet;
+      if(value.name == vauleGet){
+        indexPosition = index;
+        return value;  
+      }      
     })[0];
-    if(indexPosition){
-      document.getElementById('hidden/show').hidden=false;  
-      document.getElementById('errorCheck').innerHTML = "plse invalid";
-    }
     console.log(listdata);
     console.log(indexPosition);
     document.getElementById('errorCheck').innerHTML = "";
+    document.getElementById('hidden/show').hidden=false;  
   }
   else{
     document.getElementById('errorCheck').innerHTML = "Pls select one";
   }
 }
 
+//Delete particular cello 
 function spliceFun(){
   let vauleGet = document.getElementById('valueGet').value;
-  
+  if(vauleGet){
+    manObj.splice(indexPosition,1)
+    const tableData = manObj.map(function(value){
+      return `<tr>
+          <td>${value.name}</td>
+          <td>${value.age}</td>
+      </tr>`
+    }).join("");
+    document.getElementById('tableId').innerHTML =tableData;
+    document.getElementById('hidden/show').hidden=true;
+  }
+  else{
+    document.getElementById('errorCheck').innerHTML = "sorry";
+    }
+}
+
+//Update particular cello 
+function updateinput(){
+  let vauleGet = document.getElementById('updatein').value;
+  if(vauleGet){
+    manObj[indexPosition].name = vauleGet;
+    const tableData = manObj.map(function(value){
+      return `<tr>
+          <td>${value.name}</td>
+          <td>${value.age}</td>
+      </tr>`
+    }).join("");
+    document.getElementById('tableId').innerHTML =tableData;
+    document.getElementById('hidden/show').hidden=true;
+  }
+  else{
+    document.getElementById('errorCheck').innerHTML = "not update";
+  }
 }
