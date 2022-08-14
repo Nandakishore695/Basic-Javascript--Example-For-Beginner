@@ -4,29 +4,39 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Test 1</title>
+    <title>Project 1</title>
   </head>
   <body>
-    <p>Table</p>
+    
+    <label>B1</label>
+    <input type="text" id="boxValue1" />
+    <label>B2</label>
+    <input type="text" id="boxValue2" />
+    <button onclick="valueBinding()">Add</button>
+    <input id="result" type="text"/>
+    <br>
+    <label>C1 </label>
+    <input type="text" id="oneFixed" />
+    <label>C2 </label>
+    <input type="text" id="twoFixed" />
+    <button onclick="valueToFixed()">To Fixed</button>
+    <input id="result1" /><span id="error"></span>
+
     <table border="1">
       <thead>
         <th>Name</th>
         <th>Age</th>
-        <th>Phone</th>
-        <th>Courses</th>
       </thead>
-      <tbody id="idTable"></tbody>
+      <tbody id="tableId"></tbody>
     </table>
-    <br />
-    <input type="text" id="checked" />
-    <button type="button" onclick="inputCheck()">Check</button>
-    <br />
-     <div id="Hide_Show">
-      <button>Slice</button>
-      <input type="text" id="turechecked" />
-      <button onclick="updateFun()">Update</button><br />
+    <input id="valueGet">
+    <span id="errorCheck" style="color:red"></span>
+    <button onclick="checkFun()">Check</button>
+    <div id="hidden/show">
+      <button onclick="spliceFun()">Splice</button>
+      <input id="updatein">
+      <button onclick="updateinput()">Update</button>
     </div>
-    <input type="text" id="invalid" />
-    <script src="../Bacis/Bascis.js"></script>
+    <script src="../NumString/Numstring.js"></script>
   </body>
 </html>
