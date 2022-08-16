@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form name="formData">
+        <label><b>Name:</b></label>    
+        <input type="text" id="ffname" ><span style="color: red" id="errorName"></span><br>
+        <label><b>Email:</b></label>
+        <input type="text" id="fename"><span style="color: red" id="errorEmail"></span><br>
+        <label><b>Password:</b></label>
+        <input type="password" id="fpassword"><span style="color: red" id="errorPassword"></span><br>
+        <label><b>Phone:</b></label>
+        <input type="text" id="fphone"><span style="color: red" id="errorPhone"></span><br>
+        <label><b>DOB</b></label>
+        <input type="date" id="fdob"><span style="color: red" id="errorBirth"></span><br>
+        <label><b>URl</b></label>
+        <input type="url" id="furl"><span style="color: red" id="errorUrl"></span><br>
+        <label><b>Country</b></label>
+        <input type="text" id="fcountry"><span style="color: red" id="errorCountry"></span><br>
+        <label><b>City</b></label>
+        <input type="text" id="fcity"><span style="color: red" id="errorCity"></span><br>
+      </form>
+      <button type="submit" onclick="saveData()">Submit</button>
+      <br>
+      <br>
+      <div id="tableID">
+      <table border="1">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Password</th>
+                <th>Phone</th>
+                <th>DOB</th>
+                <th>URl</th>
+                <th>Country</th>
+                <th>City</th>
+             </tr>
+        </thead>
+        <tbody id="bodyData">
+        </tbody>
+      </table>
+      <button type="submit">Edit</button>
+      <button type="submit">Remove</button>
+
+    </div>
+    <script src="../curdOperation/curdOperation.js"></script>
+</body>
+</html>
