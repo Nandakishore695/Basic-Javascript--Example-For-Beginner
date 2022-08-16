@@ -3,13 +3,12 @@ function saveData() {
   //Input data collection
   let name = document.getElementById("ffname").value;
   let email = document.getElementById("fename").value;
-  let password = document.getElementById("fpassword").value;
   let phone = document.getElementById("fphone").value;
   let dob = document.getElementById("fdob").value;
   let url = document.getElementById("furl").value;
   let counrty = document.getElementById("fcountry").value;
   let city = document.getElementById("fcity").value;
-  console.log(name, email, password, phone, dob, url, counrty, city);
+  console.log(name, email, phone, dob, url, counrty, city);
   document.getElementById("tableID").hidden = false;
   //Validation for input field
   if (name == "") {
@@ -17,9 +16,6 @@ function saveData() {
   }
   if (email == "") {
     document.getElementById("errorEmail").innerHTML = "pls provide email";
-  }
-  if (password == "") {
-    document.getElementById("errorPassword").innerHTML = "pls provide password";
   }
   if (phone == "") {
     document.getElementById("errorPhone").innerHTML = "pls provide phone";
@@ -47,16 +43,15 @@ function saveData() {
   let td5 = tr.appendChild(document.createElement("td"));
   let td6 = tr.appendChild(document.createElement("td"));
   let td7 = tr.appendChild(document.createElement("td"));
-  let td8 = tr.appendChild(document.createElement("td"));
+  
 
   td1.innerHTML = name;
   td2.innerHTML = email;
-  td3.innerHTML = password;
-  td4.innerHTML = phone;
-  td5.innerHTML = dob;
-  td6.innerHTML = url;
-  td7.innerHTML = counrty;
-  td8.innerHTML = city;
+  td3.innerHTML = phone;
+  td4.innerHTML = dob;
+  td5.innerHTML = url;
+  td6.innerHTML = counrty;
+  td7.innerHTML = city;
   document.getElementById("bodyData").appendChild(tr);
   document.formData.reset();
 }
