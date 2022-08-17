@@ -1,13 +1,13 @@
 document.getElementById("tableID").hidden = true; //form hide
 document.getElementById("formId").hidden = false;
+
 var citiesByState = {
   India: ["Telangana", "Karnataka", "Tamilnadu"],
   Usa: ["Vega", "Inidya", "Wasinton dc"],
 };
 
-let selectedRow = null;
-
 function saveData() {
+  debugger
   //Input data collection
   let name = document.getElementById("ffname").value;
   let email = document.getElementById("fename").value;
@@ -18,30 +18,78 @@ function saveData() {
   let city = document.getElementById("fcitySelect").value;
 
   //Validation
+  let nameRegex = /^[A-z a-z ]{3,20}$/;
+  if (name.match(nameRegex)) {
+    document.getElementById("errorName").innerHTML = "";
+  } 
+  else if(name == ""){
+    document.getElementById("errorName").innerHTML = "pls provide name";
+  }
+  else {
+    document.getElementById("errorName").innerHTML = "Name is not valid";
+    return false;
+  }
 
-  if (name =="") {
-    document.getElementById("errorName").innerHTML = "Name is not correct";
+  let emailRegex = /^[a-zA-Z._0-9]{3,25}@[a-z]{3,10}[.]{1}[a-z.]{3,5}$/;
+  if (email.match(emailRegex)) {
+    document.getElementById("errorEmail").innerHTML = "";
+  } 
+  else if(email==""){
+    document.getElementById("errorEmail").innerHTML = "pls provide valid";
   }
-  if (email == "") {
+  else {
     document.getElementById("errorEmail").innerHTML = "Email is not valid";
+    return false;
   }
-  if (phone == "") {
-    document.getElementById("errorPhone").innerHTML = "Phone is not valid";
+
+  let phoneRegex = /^[0-9+]{3,13}$/;
+  if (phone.match(phoneRegex)) {
+    document.getElementById("errorPhone").innerHTML = "";
+  } 
+  else if(phone==""){
+    document.getElementById("errorPhone").innerHTML = "pls provide number ";
   }
-  if (age == "") {
-    document.getElementById("errorBirth").innerHTML = "Birth is not valid";
+  else {
+    document.getElementById("errorPhone").innerHTML = "Number is not match ";
+    return false;
   }
-  
-  if (url == "") {
+
+  let ageRegex = /^[0-9-]{10}$/;
+  if (age.match(ageRegex)) {
+    document.getElementById("errorBirth").innerHTML = "";
+  }
+  else if(age==""){
+    document.getElementById("errorBirth").innerHTML = "pls provide age";
+  }
+  else {
+    document.getElementById("errorBirth").innerHTML = "Age is not valid";
+    return false;
+  }
+
+  let urlRegex = /https?:\/\/(a-z\.)?[-a-zA-Z0-9@:%._\+~#=]{1,256}\.[a-zA-Z0-9()]{1,6}\b[-a-zA-Z0-9()@:%_\+.~#?&\/\/=]*$/; 
+  if (url.match(urlRegex)) {
+    document.getElementById("errorUrl").innerHTML = "";
+  }
+  else if(url==""){
+    document.getElementById("errorUrl").innerHTML = "pls provide url";
+  }
+  else {
     document.getElementById("errorUrl").innerHTML = "Url is not valid";
+    return false;
   }
+
   if (counrty == "") {
-    document.getElementById("errorCountry").innerHTML = "Country is not valid";
+    document.getElementById("errorCountry").innerHTML = "Select Counrty";
   }
-  if(city == "") {
-    document.getElementById("errorCity").innerHTML = "City is not valid";
+  else {
+    document.getElementById("errorCountry").innerHTML = "";
+  }
+
+  if (city == "") {
+    document.getElementById("errorCity").innerHTML = "Select City";
   } 
   else {
+    document.getElementById("errorCity").innerHTML = "";
     document.getElementById("tableID").hidden = false;
     document.getElementById("formId").hidden = true;
   }
@@ -70,6 +118,8 @@ function saveData() {
     <button><a onclick="onDelete(this)">Delete</a></button>`;
 
   document.getElementById("bodyData").appendChild(tr);
+
+  //Form value reset line
   document.formData.reset();
 }
 
@@ -84,28 +134,7 @@ function makeSubmenu(value) {
   }
 }
 
-function onEdit(td) {
-    document.getElementById("formId").hidden = false;
-  let row = td.parentElement.parentElement;
-  document.getElementById("ffname").value = row.cells[0].innerHTML;
-  document.getElementById("fename").value = row.cells[1].innerHTML;
-  document.getElementById("fphone").value = row.cells[2].innerHTML;
-  document.getElementById("fdob").value = row.cells[3].innerHTML;
-  document.getElementById("furl").value = row.cells[4].innerHTML;
-  document.getElementById("fcountrySelect").value = row.cells[5].innerHTML;
-  document.getElementById("fcitySelect").value = row.cells[6].innerHTML;  
-}
-function updateRecord(formData) {
-  row.cells[0].innerHTML = formData.name;
-  row.cells[1].innerHTML = formData.email;
-  row.cells[2].innerHTML = formData.phone;
-  row.cells[3].innerHTML = formData.dob;
-  row.cells[4].innerHTML = formData.url;
-  row.cells[5].innerHTML = formData.counrty;
-  row.cells[6].innerHTML = formData.city;
-}
-
 function onDelete(td) {
-  let row = td.parentElement.parentElement;
+  let row = td.parentNode;
   document.getElementById("bodyData").deleteRow(row.rowIndex);
 }
