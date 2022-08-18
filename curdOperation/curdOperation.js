@@ -7,7 +7,6 @@ var citiesByState = {
 };
 
 function saveData() {
-  debugger
   //Input data collection
   let name = document.getElementById("ffname").value;
   let email = document.getElementById("fename").value;
@@ -72,10 +71,10 @@ function saveData() {
   }
   else if(url==""){
     document.getElementById("errorUrl").innerHTML = "pls provide url";
+    return false;
   }
   else {
     document.getElementById("errorUrl").innerHTML = "Url is not valid";
-    return false;
   }
 
   if (counrty == "") {
@@ -83,6 +82,7 @@ function saveData() {
   }
   else {
     document.getElementById("errorCountry").innerHTML = "";
+    
   }
 
   if (city == "") {
@@ -93,7 +93,7 @@ function saveData() {
     document.getElementById("tableID").hidden = false;
     document.getElementById("formId").hidden = true;
   }
-
+  
   let years = new Date(new Date() - new Date(age)).getFullYear() - 1970;
 
   //data binding to Table
@@ -137,4 +137,22 @@ function makeSubmenu(value) {
 function onDelete(td) {
   let row = td.parentNode;
   document.getElementById("bodyData").deleteRow(row.rowIndex);
+}
+
+function onEdit() {
+  document.getElementById("formId").hidden = false;
+  let table =document.getElementById("bodyData");
+  let row = table.getElementsByTagName("td");
+  document.getElementById("ffname").value = row[0].innerHTML;
+  document.getElementById("fename").value = row[1].innerHTML;
+  document.getElementById("fphone").value = row[2].innerHTML;
+  document.getElementById("fdob").value = row[3].innerHTML;
+  document.getElementById("furl").value = row[4].innerHTML;
+  document.getElementById("fcountrySelect").value = row[5].innerHTML;
+  document.getElementById("fcitySelect").value = row[6].innerHTML; 
+}
+
+function addForm(){ 
+    document.getElementById("tableID").hidden= true
+   document.getElementById("formId").hidden= false
 }
