@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ClipCopy</title>
+</head>
+
+<body>
+    <section>
+        <h1>Copy a Text</h1>
+        <input type="text" id="text-copy" value="Nandakishore">
+        <button id="handleCopy" class="tooltiptext">Click Copy</button>
+        <span class="myTooltip" id="myTooltip"></span>
+        <hr>
+    </section>
+
+    <script>
+        document.querySelector('#handleCopy').addEventListener('click', function () {
+            let copyText = document.querySelector("#text-copy").value;
+            navigator.clipboard.writeText(copyText);
+            if (!copyText) {
+                document.querySelector('#myTooltip').innerHTML = 'copyed:- Not copy';
+            } else {
+                document.querySelector('#myTooltip').innerHTML = 'copyed:-' + copyText;
+            }
+        });
+    </script>
+</body>
+
+</html>
