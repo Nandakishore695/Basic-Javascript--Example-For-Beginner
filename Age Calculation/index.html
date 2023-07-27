@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age calculate</title>
+    <style>
+        .container-age {
+            border: 2px solid black;
+            display: flex;
+            justify-content: center; /* this will show in x-axis center*/
+            height: 200px;
+            align-items: center; /* this will show in y-axis center*/
+            flex-direction: column;
+            background-image: linear-gradient(to right, pink, blue);
+        }
+    </style>
+</head>
+
+<body>
+    <section class="container-age">
+        <div>
+            <h1>Age calculate</h1>
+            <label> Date of Birth</label>
+            <input type="date" id="birth-number">
+            <button id="handleDaysConvert">Days Check</button>
+            <br>
+        </div>
+        <span id="age-result"></span> <!-- output will show here -->
+    </section>
+    <script>
+        document.querySelector("#handleDaysConvert").addEventListener('click', function () {
+            let birthNumber = document.querySelector('#birth-number').value; // past selection value 
+
+            let yearbirthNumber = parseInt(birthNumber.substring(0, 4)); //string value two indices positions(start, end)
+            let monthbirthNumber = parseInt(birthNumber.substring(5, 7));
+            let datebirthNumber = parseInt(birthNumber.substring(8, 10));
+
+            let today = new Date(); //current date will get and this is object
+
+            let yearcurrentNumber = today.getFullYear(); 
+            let monthcurrentNumber = today.getMonth() + 1; // getmonth method will get 0 to 11 number month
+            let datecurrentNumber = today.getDate();
+
+            let isYear, isMonth, isDate;
+            isYear = yearbirthNumber - yearcurrentNumber; // substract two different year number 
+            isMonth = monthbirthNumber - monthcurrentNumber;
+            isDate = datebirthNumber - datecurrentNumber;
+
+            let year, month, date;
+            year = Math.abs(isYear); //math.abs() method will convert negative number to postive number
+            month = Math.abs(isMonth);
+            date = Math.abs(isDate);
+
+            let result = `your age is ${year}, and total months ${month}, and total dates ${date}` // final output
+            document.querySelector('#age-result').innerHTML = result;
+        });
+    </script>
+</body>
+
+</html>
