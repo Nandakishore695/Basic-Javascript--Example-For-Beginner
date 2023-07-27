@@ -1,9 +1,0 @@
-.container-age {
-    border: 2px solid black;
-    display: flex;
-    justify-content: center;  /* this will show in x-axis center*/
-    height: 200px;
-    align-items: center;      /* this will show in y-axis center*/
-    flex-direction: column;
-    background-image: linear-gradient(to right, pink, blue);
-}
