@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CountDown | Timer</title>
+    <style>
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 500px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <section class="container">
+        <div>
+            <h1 id="stopwatchCountDown">00 : 00 : 00</h1>
+        </div>
+        <div>
+            <button id="handleStart">Start</button>
+            <button id="handleStop">Stop</button>
+            <button id="handleReset">Reset</button>
+        </div>
+    </section>
+    <script>
+
+        let [hourse, minutes, seconds] = [0, 0, 0]; //in array value to set
+        let timer, result;
+        result = document.querySelector('#stopwatchCountDown');
+
+
+        document.querySelector('#handleStart').addEventListener('click', function () {
+            timer = true;
+            watchStar()
+            document.querySelector('#handleStart').ariaDisabled=true    
+        });
+
+        document.querySelector('#handleStop').addEventListener('click', function () {
+            timer = false;
+        });
+
+        document.querySelector('#handleReset').addEventListener('click', function () {
+            timer = false;
+            hourse = 0;
+            minutes = 0;
+            seconds = 0;
+        });
+
+        function stopWatch() {
+            if (timer) {
+                seconds++
+                if (seconds == 60) {
+                    seconds = 0;
+                    minutes++
+                    if (minutes == 60) {
+                        minutes = 0;
+                        hourse++
+                        if (hourse == 24) {
+                            hourse = 0
+                        }
+                    }
+                }
+            }
+
+            let h, m, s;
+            h = hourse < 10 ? '0' + hourse : hourse; //for dispaly 00 : 00 : 00 stopwatch ternary condtiion
+            m = minutes < 10 ? '0' + minutes : minutes;
+            s = seconds < 10 ? '0' + seconds : seconds;
+
+            result.innerHTML = h + " : " + m + " : " + s;
+        }
+
+        function watchStar() {
+            setInterval(stopWatch, 1000);
+        }
+
+    </script>
+</body>
+
+</html>
