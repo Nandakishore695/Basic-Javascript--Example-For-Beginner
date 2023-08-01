@@ -72,7 +72,7 @@
             m = minutes < 10 ? '0' + minutes : minutes;
             s = seconds < 10 ? '0' + seconds : seconds;
 
-            result.innerHTML = h + " : " + m + " : " + s;
+            result.innerHTML = `${h} : ${m} : ${s}`; //String InterPolation
         }
 
         function watchStar() {
