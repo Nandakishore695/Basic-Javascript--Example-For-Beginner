@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body onload='setFocusToTextBox()'>
+    <div>
+        <h2>TO Calculator.</h2>
+    </div>
+    <div>
+        <label>First Number</label>
+        <input type="text" id="firstNumber" placeholder="Name" value="">
+        <label>Second Number</label>
+        <input type="text" id="secondNumber" placeholder="Email">
+    </div>
+    <h2>Result:-<span id="outPutSum"></span></h2>
+    <div>
+        <div>
+            <button style="width: 40px; height: 30px;" onclick="numberValues('0')" >0</button>
+            <button style="width: 40px; height: 30px;" onclick="numberValues('1')">1</button>
+            <button style="width: 40px; height: 30px;" onclick="numberValues('2')">2</button>
+            <button style="width: 40px; height: 30px;" onclick="operatorHandler('+')">+</button>
+        </div>
+        <div>
+            <button style="width: 40px; height: 30px;" onclick="numberValues('3')">3</button>
+            <button style="width: 40px; height: 30px;" onclick="numberValues('4')">4</button>
+            <button style="width: 40px; height: 30px;" onclick="numberValues('5')">5</button>
+            <button style="width: 40px; height: 30px;" onclick="operatorHandler('-')">-</button>
+        </div>
+        <div>
+            <button style="width: 40px; height: 30px;" onclick="numberValues('6')">6</button>
+            <button style="width: 40px; height: 30px;" onclick="numberValues('7')">7</button>
+            <button style="width: 40px; height: 30px;" onclick="numberValues('8')">8</button>
+            <button style="width: 40px; height: 30px;" onclick="operatorHandler('*')">*</button>
+        </div>
+       <div>
+           <button style="width: 40px; height: 30px;" onclick="numberValues('9')">9</button>
+           <button style="width: 84px; height: 30px;" id="solveTheNumber">=</button>
+           <button style="width: 40px; height: 30px;" onclick="operatorHandler('*')">/</button>
+       </div>
+    </div>
+    <script src="../casioCalculator/index.js"></script>
+</body>
+</html>
