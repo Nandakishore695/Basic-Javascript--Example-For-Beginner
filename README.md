@@ -5,13 +5,19 @@
 
 **2.What are Data Types?**
 
-JavaScript Data types:-
-- Number
+There are two types of data types in JavaScript:-
+
+**1.Primitive data type**
 - String
+- Number
 - Boolean
-- Object
 - Undefined
 - null
+
+**2.Non-primitive data type**
+- Object
+- Array
+- RegExp
 
 **3.What is ‘this’ keyword in JavaScript?**
 - ‘This’ keyword refers to an object from which it was called.
