@@ -19,8 +19,11 @@ There are two types of data types in JavaScript:-
 - Array
 - RegExp
 
-**3.What is ‘this’ keyword in JavaScript?**
-- ‘This’ keyword refers to an object from which it was called.
+**3.Difference between “ == “ and “ === “ operators?**
 
-**4.what is synchronous and asynchronous?**
-- Async is multi-thread, which means programs can run in parallel. Sync is single-thread, which means one program will run at a time.
+**Both are comparison operators.  The difference between is:-**
+
+- Double equal operators is used to compare values
+- Triple equal  operators are used to compare both values and types.
+
+
