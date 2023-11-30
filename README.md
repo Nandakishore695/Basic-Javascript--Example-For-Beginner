@@ -35,8 +35,44 @@ There are two types of data types in JavaScript:-
 
 **5.what is synchronous and asynchronous?**
 - Synchronous is single-thread, which means one program will run at a time.
-- Asynchronous is multi-thread, which means programs can run in parallel. 
+- Asynchronous is multi-thread, which means programs can run in parallel.
 
+**6.What are the string method in javascript and Explain?**
+
+JavaScript provides a variety of string methods that allow you to manipulate and work with strings.
+
+- length 
+- concat()
+- toUpperCase()
+- toLowerCase()
+- indexOf()
+- trim() 
+- charAt()
+- replace()
+- slice()
+- split()
+
+  let str = "Hello, World!";
+  
+  console.log(str.length);  // Outputs 13
+  
+  console.log(str.concat("2"));  // Outputs 'Hello World2'
+  
+  console.log(str.toUpperCase());  // Outputs 'HELLO WORLD'
+  
+  console.log(str.toLowerCase());  // Outputs 'hello world'
+
+  console.log(str.indexOf("World"));  // Outputs 7
+  
+  console.log(str.trim());  // Outputs 'Hello, World!'
+  
+  console.log(str.charAt(1));  // Outputs 'e'
+
+  console.log(str.replace("World", "Universe"));  // Outputs 'Hello, Universe!'
+
+  console.log(str.slice(0, 5));  // Outputs 'Hello'
+
+  console.log(str.split(","));  // Outputs ['apple', 'banana', 'orange']
 
 
 
