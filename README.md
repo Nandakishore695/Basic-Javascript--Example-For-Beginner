@@ -27,4 +27,11 @@ There are two types of data types in JavaScript:-
 - Double equal operators is used to compare values
 - Triple equal  operators are used to compare both values and data-types.
 
+**4.what is the difference between var and let and const?**
+
+- Var can be declared as a global or local scope. so you can access it everywhere (inside and outside functions). and with var can be redeclared and reassigned value.
+- Let can be declared as a local-scope.so let can be reassigned the value, but they cannot be redeclared.
+- Const block scoped, cannot be reassigned or redeclared after initialization.
+
+
 
