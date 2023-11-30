@@ -30,7 +30,7 @@ There are two types of data types in JavaScript:-
 **4.what is the difference between var and let and const?**
 
 - **Var** can be declared as a global or block-scope. so, we can access  from everywhere (inside and outside functions). and with **var** can be redeclared and reassigned value.
-- **Let** can be declared as a block-scope. so **let** can be reassigned the value, but they cannot be redeclared.
+- **Let** can be declared as a block-scope. so **let** can be reassigned the value, but they cannot be redeclared. Introduced as part of ES6
 - **Const** is a block-scoped, cannot be reassigned or redeclared after initialization.
 
 **5.what is synchronous and asynchronous?**
