@@ -101,7 +101,9 @@ There are many different events in JavaScript.
 - **Window events:**
 
   1.onload
+  
   2.onunload
+  
   3.onresize
 
 
