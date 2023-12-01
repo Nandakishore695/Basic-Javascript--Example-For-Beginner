@@ -74,5 +74,26 @@ JavaScript provides a variety of string methods that allow you to manipulate and
 
   console.log(str.split(","));  // Outputs ['apple', 'banana', 'orange']
 
+**7. What are the different events in JavaScript?**
+
+There are many different events in JavaScript.
+- **Mouse events:**
+•	onclick
+•	onmouseover
+•	onmouseout
+- **Keyboard events:**
+•	onkeyup
+•	onkeydown
+- **Form events:**
+•	onchange
+•	onfocus
+•	onsubmit
+•	onblur
+- **Window events:**
+•	onload
+•	onunload
+•	onresize
+
+
 
 
