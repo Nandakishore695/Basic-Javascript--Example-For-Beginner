@@ -78,21 +78,31 @@ JavaScript provides a variety of string methods that allow you to manipulate and
 
 There are many different events in JavaScript.
 - **Mouse events:**
-•	onclick
-•	onmouseover
-•	onmouseout
+  
+  1.onclick
+  
+  2.onmouseover
+  
+  3.onmouseout
 - **Keyboard events:**
-•	onkeyup
-•	onkeydown
+
+  1.onkeyup
+  
+  2.onkeydown
 - **Form events:**
-•	onchange
-•	onfocus
-•	onsubmit
-•	onblur
+  
+  1.onchange
+  
+  2.onfocus
+  
+  3.onsubmit
+  
+  4.onblur
 - **Window events:**
-•	onload
-•	onunload
-•	onresize
+
+  1.onload
+  2.onunload
+  3.onresize
 
 
 
