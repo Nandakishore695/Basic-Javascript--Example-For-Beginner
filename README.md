@@ -8,7 +8,7 @@
 There are two types of data types in JavaScript:-
 
 **1.Primitive data type**
-- String :- Represents a series of characters.A string can be represented in either single (' ') or double (" ") quotes, 
+- String :- Represents a series of characters.A string can be represented in either single (' ') or double (" ") quotes,  
 - Number
 - Boolean
 - Undefined
