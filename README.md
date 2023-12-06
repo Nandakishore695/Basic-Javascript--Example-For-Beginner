@@ -104,7 +104,7 @@ There are many different events in JavaScript.
   
   2.onunload
   
-  3.onresize
+  3.onresize 
 
 
 
