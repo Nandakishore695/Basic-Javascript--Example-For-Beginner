@@ -22,10 +22,10 @@ There are two types of data types in JavaScript:-
 
 **3.Difference between “ == “ and “ === “ operators?**
 
-**Both are comparison operators.  The difference between is:-**
+**Both are comparison operators.**
 
-- Double equal operators is used to compare values
-- Triple equal  operators are used to compare both values and data-types.
+- Loose equality operators is used to compare two values and returns true if they are equal
+- Strict equality operators are used to compare two values and same-types.
 
 **4.what is the difference between var and let and const?**
 
