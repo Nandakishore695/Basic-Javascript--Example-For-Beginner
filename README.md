@@ -3,41 +3,44 @@
 **1.What is JavaScript?** 
 - JavaScript is a client-side scripting language used to create dynamic features for web applications, making them more user-friendly and engaging.(e.g :-clickable buttons, popup menus, etc.)
 
-**2.What are Data Types?**
+**2.How to add JavaScript to html?**
+- There are three ways to write or add  javascript code are:
+1. Embedding code
+2. Inline code
+3. External file
+   
+**3.What are Data Types?**
 
 There are two types of data types in JavaScript:-
 
-**1.Primitive data type**
+| Primitive data type  | Non-primitive data type |
+| ------------- | ------------- |
+| String  | Object |
+| Number  | Array |
+| Boolean  | RegExp |
+| Undefined |  |
+| null |  |
+
 - String :- Represents a series of characters.A string can be represented in either single (' ') or double (" ") quotes,  
-- Number
-- Boolean
-- Undefined
-- null
 
-**2.Non-primitive data type**
-- Object
-- Array
-- RegExp
-
-
-**3.Difference between “ == “ and “ === “ operators?**
+**4.Difference between “ == “ and “ === “ operators?**
 
 **Both are comparison operators.**
 
 - Loose equality operators is used to compare two values and returns true. If they are equal
 - Strict equality operators is used to compare two values and same-types.
 
-**4.what is the difference between var and let and const?**
+**5.what is the difference between var and let and const?**
 
 - **Var** can be declared as a global or block-scope. so, we can access  from everywhere (inside and outside functions). and with **var** can be redeclared and reassigned value.
 - **Let** can be declared as a block-scope. so **let** can be reassigned the value, but they cannot be redeclared. Introduced as part of ES6
 - **Const** is a block-scoped, cannot be reassigned or redeclared after initialization.
 
-**5.what is synchronous and asynchronous?**
+**6.what is synchronous and asynchronous?**
 - Synchronous is single-thread, which means one program will run at a time.
 - Asynchronous is multi-thread, which means programs can run in parallel.
 
-**6.What are the string method in javascript and Explain?**
+**7.What are the string method in javascript and Explain?**
 
 JavaScript provides a variety of string methods that allow you to manipulate and work with strings.
 
@@ -74,39 +77,18 @@ JavaScript provides a variety of string methods that allow you to manipulate and
 
   console.log(str.split(","));  // Outputs ['apple', 'banana', 'orange']
 
-**7. What are the different events in JavaScript?**
+**8. What are the different events in JavaScript?**
 
-There are many different events in JavaScript.
-- **Mouse events:**
-  
-  1.onclick
-  
-  2.onmouseover
-  
-  3.onmouseout
-- **Keyboard events:**
+There are many different events in JavaScript are:
+| Mouse events | Keyboard events | Form events | Window events|
+| ------------- | ------------- | ------------- |  ------------- |
+| onclick  | onkeyup | onchange | onload |
+| onmouseover  | onkeydown | onfocus | onunload |
+| onmouseout  |  | onsubmit | onresize|
+|  |  | onblur ||
 
-  1.onkeyup
-  
-  2.onkeydown
-- **Form events:**
-  
-  1.onchange
-  
-  2.onfocus
-  
-  3.onsubmit
-  
-  4.onblur
-- **Window events:**
 
-  1.onload
-  
-  2.onunload
-  
-  3.onresize 
-
-**8.What is Babel, and why is it used in JavaScript development?**
+**9.What is Babel, and why is it used in JavaScript development?**
 
 - Babel is a JavaScript compiler. It is used to convert code from a non-JavaScript language into JavaScript like React code.
 
@@ -120,5 +102,6 @@ There are many different events in JavaScript.
 | In ES5, both function and return keywords are used to define a function  | An arrow function is a new feature introduced in ES6 by which we don't require the function keyword to define the function  |
 | In ES5, there is a use of for loop to iterate over elements | ES6 introduced the concept of for...of loop to perform an iteration over the values of the iterable objects  |
 
-
+**10.What is hoisting in JavaScript?**
+- Hoisting is a JavaScript mechanism where variables and function declarations on the top scopes before the code is executed.
 
