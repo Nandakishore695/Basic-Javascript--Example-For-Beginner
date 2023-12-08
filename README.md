@@ -4,7 +4,9 @@
 - JavaScript is a client-side scripting language used to create dynamic features for web applications, making them more user-friendly and engaging.(e.g :-clickable buttons, popup menus, etc.)
 
 **2.How to add JavaScript to html?**
-- There are three ways to write or add  javascript code are:
+
+There are three ways to write or add  javascript code are:
+
 1. Embedding code
 2. Inline code
 3. External file
