@@ -106,6 +106,9 @@ There are many different events in JavaScript.
   
   3.onresize 
 
+**What is Babel, and why is it used in JavaScript development?**
+
+- Babel is a JavaScript compiler. It is used to convert code from a non-JavaScript language into JavaScript like React code.
 
 
 
