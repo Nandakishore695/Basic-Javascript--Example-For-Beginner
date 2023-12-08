@@ -110,5 +110,15 @@ There are many different events in JavaScript.
 
 - Babel is a JavaScript compiler. It is used to convert code from a non-JavaScript language into JavaScript like React code.
 
+**9.Give a the different between comparison between ES5 and ES6?**
+
+| ES5  | ES6 |
+| ------------- | ------------- |
+| ECMAScript which was introduced in 2009  | ECMAScript which was introduced in 2015  |
+| Primitive data types are string, Boolean, number, null, and undefined are supported by ES5  | A new primitive data type 'symbol' was introduced. in ES6  |
+| Only the var keyword can be used to define variables in ES5.only. which has function-level scope  | In ES5, let and const are two new ways to define variables: let and const. let has block-level scope, while const is used to declare constants  |
+| In ES5, both function and return keywords are used to define a function  | An arrow function is a new feature introduced in ES6 by which we don't require the function keyword to define the function  |
+| In ES5, there is a use of for loop to iterate over elements | ES6 introduced the concept of for...of loop to perform an iteration over the values of the iterable objects  |
+
 
 
