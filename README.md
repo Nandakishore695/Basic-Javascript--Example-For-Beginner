@@ -22,6 +22,7 @@ There are two types of data types in JavaScript:-
 | Boolean  | RegExp |
 | Undefined |  |
 | null |  |
+| Symbol | | |
 
 - String :- Represents a series of characters.A string can be represented in either single (' ') or double (" ") quotes,  
 
