@@ -95,6 +95,15 @@ There are many different events in JavaScript are:
 
 - Babel is a JavaScript compiler. It is used to convert code from a non-JavaScript language into JavaScript like React code.
 
+**10.What is scope in javascript?**
+
+JavaScript has two different types of scope. 
+
+**1.	Global scope:** Variables declared outside of any function become global variables. Global variables can be accessed and modified from any function.
+
+**2.	Local scope:** Variables declared inside any function. Local variables cannot be accessed or modified outside the function.
+
+
 **9.Give a the different between comparison between ES5 and ES6?**
 
 | ES5  | ES6 |
