@@ -100,7 +100,6 @@ There are many different events in JavaScript are:
 JavaScript has two different types of scope. 
 
 - **Global-scope:** Variables declared outside of any function become global variables. It can be accessed and modified from any function.
-
 - **Block-scope:** Variables declared inside a function. It cannot be accessed or modified outside of the function.
 
 **11.What is the “spread” operator?**
