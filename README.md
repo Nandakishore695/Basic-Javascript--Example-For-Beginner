@@ -15,7 +15,7 @@ There are three ways to write or add  javascript code are:
 
 There are two types of data types in JavaScript:-
 
-| Primitive data type  | Non-primitive data type |
+| Primitive  | Non-primitive |
 | ------------- | ------------- |
 | String  | Object |
 | Number  | Array |
@@ -103,7 +103,7 @@ JavaScript has two different types of scope.
 - **Block-scope:** Variables declared inside a function. It cannot be accessed or modified outside of the function.
 
 **11.What is the “spread” operator?**
-- The spread operator is a new features available in ES6. It is denoted by three dots (...). while it can be used to concatenate two arrays and to insert the elements of one array into another array.
+- The spread operator is a new feature available in ES6. It is denoted by three dots (...). while it can be used to concatenate two arrays and to insert the elements of one array into another array.
 
 **12. What is the difference between "null" and "undefined" in JavaScript?**
 - null and undefined are both special values.
