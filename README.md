@@ -104,16 +104,16 @@ JavaScript has two different types of scope.
 - **Block-scope:** Variables declared inside a function. It cannot be accessed or modified outside of the function.
 
 **11.What is the “spread” operator?**
-- The spread operator is a new addition to the features available in ES6. It is denoted by three dots (...). while it can be used to concatenate two arrays.
+- The spread operator is a new addition to the features available in ES6. It is denoted by three dots (...). while it can be used to concatenate two arrays and to insert the elements of one array into another array.
 
 **12.Give a the different between comparison between ES5 and ES6?**
 
-| ES5  | ES6 |
+| ECMAScript5  | ECMAScript6 |
 | ------------- | ------------- |
-| ECMAScript which was introduced in 2009  | ECMAScript which was introduced in 2015  |
-| Primitive data types are string, Boolean, number, null, and undefined are supported by ES5  | A new primitive data type 'symbol' was introduced. in ES6  |
-| Only the var keyword can be used to define variables in ES5.only. which has function-level scope  | In ES5, let and const are two new ways to define variables: let and const. let has block-level scope, while const is used to declare constants  |
-| In ES5, both function and return keywords are used to define a function  | An arrow function is a new feature introduced in ES6 by which we don't require the function keyword to define the function  |
+| ES5 was introduced in 2009  | ES6 was introduced in 2015  |
+| ES5 supported by Primitive data types are string, number, Boolean, null, & undefined | A new primitive data type 'symbol' was introduced. in ES6  |
+| In ES5 the var keyword is used to declare variables, and it has function-level scope | In ES5, let and const are two new ways to define variables: let and const. let has block-level scope, while const is used to declare constants  |
+| In ES5, both function and return keywords are used to define a function | An arrow function is a new feature introduced in ES6 by which we don't require the function keyword to define the function  |
 | In ES5, there is a use of for loop to iterate over elements | ES6 introduced the concept of for...of loop to perform an iteration over the values of the iterable objects  |
 
 **10.What is hoisting in JavaScript?**
