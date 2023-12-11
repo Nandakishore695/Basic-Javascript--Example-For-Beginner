@@ -106,6 +106,11 @@ JavaScript has two different types of scope.
 **11.What is the “spread” operator?**
 - The spread operator is a new addition to the features available in ES6. It is denoted by three dots (...). while it can be used to concatenate two arrays and to insert the elements of one array into another array.
 
+**13. What is the difference between null and undefined in JavaScript?**
+- null and undefined are both special.
+- Null value that represents no value or no object. It is an intentional absence of value. On the other hand, undefined it means that a variable has been declared but has not yet been assigned a value, it implicitly returns undefined.
+
+
 **12.Give a the different between comparison between ES5 and ES6?**
 
 | ECMAScript5  | ECMAScript6 |
