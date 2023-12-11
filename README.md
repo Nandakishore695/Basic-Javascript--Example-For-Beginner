@@ -110,7 +110,6 @@ JavaScript has two different types of scope.
 - null and undefined are both special.
 - Null value that represents no value or no object. It is an intentional absence of value. On the other hand, undefined it means that a variable has been declared but has not yet been assigned a value, it implicitly returns undefined.
 
-
 **12.Give a the different between comparison between ES5 and ES6?**
 
 | ECMAScript5  | ECMAScript6 |
