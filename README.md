@@ -103,7 +103,7 @@ JavaScript has two different types of scope.
 - **Block-scope:** Variables declared inside a function. It cannot be accessed or modified outside of the function.
 
 **11.What is the “spread” operator?**
-- The spread operator is a new addition to the features available in ES6. It is denoted by three dots (...). while it can be used to concatenate two arrays and to insert the elements of one array into another array.
+- The spread operator is a new features available in ES6. It is denoted by three dots (...). while it can be used to concatenate two arrays and to insert the elements of one array into another array.
 
 **12. What is the difference between "null" and "undefined" in JavaScript?**
 - null and undefined are both special values.
