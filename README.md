@@ -119,6 +119,9 @@ JavaScript has two different types of scope.
 | In ES5, both function and return keywords are used to define a function | An arrow function is a new feature introduced in ES6 by which we don't require the function keyword to define the function  |
 | In ES5, there is a use of for loop to iterate over elements | ES6 introduced the concept of for...of loop to perform an iteration over the values of the iterable objects  |
 
+**14.What is function in JavaScript?**
+- Basically, a function is a set of statements that performs a task or calculates and return a value. Functions are defined using the function keyword, followed by a name and a block of statements enclosed in curly braces Once defined, a function can be called or invoked by its name.
+
 **10.What is hoisting in JavaScript?**
 - Hoisting is a JavaScript mechanism where variables and function declarations on the top scopes before the code is executed.
 
