@@ -115,7 +115,7 @@ JavaScript has two different types of scope.
 | ------------- | ------------- |
 | ES5 was introduced in 2009  | ES6 was introduced in 2015  |
 | ES5 supported by Primitive data types are string, number, Boolean, null, & undefined | ES6 introduced a new primitive data type 'symbol' |
-| In ES5 the var keyword is used to declare variables, and it has function-level scope | In ES5, let and const are two new ways to define variables: let and const. let has block-level scope, while const is used to declare constants  |
+| In ES5 the var keyword is used to declare variables, and it has function-level scope | In ES5, let and const are new ways to define variables. Let has block-level scope, while const is used to declare constants  |
 | In ES5, both function and return keywords are used to define a function | An arrow function is a new feature introduced in ES6 by which we don't require the function keyword to define the function  |
 | In ES5, there is a use of for loop to iterate over elements | ES6 introduced the concept of for...of loop to perform an iteration over the values of the iterable objects  |
 
