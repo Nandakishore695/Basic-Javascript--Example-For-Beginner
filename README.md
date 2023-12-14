@@ -123,5 +123,5 @@ JavaScript has two different types of scope.
 - Basically, a function is a set of statements that performs a task or calculates and return a value. Functions are defined using the function keyword, followed by a name and a block of statements enclosed in curly braces Once defined, a function can be called or invoked by its name.
 
 **10.What is hoisting in JavaScript?**
-- Hoisting is a JavaScript mechanism where variables and function declarations on the top scopes before the code is executed.
+- Hoisting is a JavaScript mechanism where variables and function declarations on the top scopes before the code is executed .
 
