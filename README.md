@@ -126,7 +126,7 @@ JavaScript has two different types of scope.
 - A callback is a function that is passed as an argument to another function, and is called after the main function has finished its execution.
 ```
 function show(sum) {
-  alert(‘i am show function'+sum);
+  alert('i am show function'+sum);
 }
 function display(num1, num2, myshow) {
   let sum = num1 + num2;
