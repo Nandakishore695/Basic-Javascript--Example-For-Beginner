@@ -122,6 +122,20 @@ JavaScript has two different types of scope.
 **14.What is function in JavaScript?**
 - Basically, a function is a set of statements that performs a task or calculates and return a value. Functions are defined using the function keyword, followed by a name and a block of statements enclosed in curly braces Once defined, a function can be called or invoked by its name.
 
+**15.What is Callback function?**
+- A callback is a function that is passed as an argument to another function, and is called after the main function has finished its execution.
+```
+function show(sum) {
+  alert(‘i am show function'+sum);
+}
+function display(num1, num2, myshow) {
+  let sum = num1 + num2;
+  myshow(sum);
+}
+display(2, 3, show);
+
+```
+
 **15.ES6 Features**
 
 ES6 comes with significant changes to the JavaScript language. It brought several new features are:
