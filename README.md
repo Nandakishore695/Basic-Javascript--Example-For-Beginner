@@ -133,7 +133,15 @@ function display(num1, num2, myshow) {
   myshow(sum);
 }
 display(2, 3, show);
+```
 
+**What is hoisting?**
+- Before the interpreter executes the whole code in JavaScript is a default behaviour where the function, variable, or class declarations are moved to the top of the scope.
+
+```
+console.log(x); // Outputs: undefined
+var x = 5;
+console.log(x); // Outputs: 5
 ```
 
 **15.ES6 Features**
