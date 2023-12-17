@@ -158,6 +158,4 @@ ES6 comes with significant changes to the JavaScript language. It brought severa
 - Default Parameter
 - Modules
 
-**10.What is hoisting in JavaScript?**
-- Hoisting is a JavaScript mechanism where variables and function declarations on the top scopes before the code is executed .
 
