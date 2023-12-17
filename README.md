@@ -135,7 +135,7 @@ function display(num1, num2, myshow) {
 display(2, 3, show);
 ```
 
-**What is hoisting?**
+**16.What is hoisting?**
 - Before the interpreter executes the whole code in JavaScript is a default behaviour where the function, variable, or class declarations are moved to the top of the scope.
 
 ```
@@ -144,7 +144,7 @@ var x = 5;
 console.log(x); // Outputs: 5
 ```
 
-**15.ES6 Features**
+**17.ES6 Features**
 
 ES6 comes with significant changes to the JavaScript language. It brought several new features are:
 
