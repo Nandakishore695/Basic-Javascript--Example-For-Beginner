@@ -33,7 +33,7 @@ There are two types of data types in JavaScript:-
 - Loose equality operators is used to compare two values and returns true. If they are equal
 - Strict equality operators is used to compare two values and same-types.
 
-**5.what is the difference between var and let and const?**
+**5.What is the difference between var and let and const?**
 
 - **Var** can be declared as a global or block-scope. so, we can access  from everywhere (inside and outside functions). and with **var** can be redeclared and reassigned value.
 - **Let** can be declared as a block-scope. so **let** can be reassigned the value, but they cannot be redeclared. Introduced as part of ES6
@@ -80,7 +80,7 @@ JavaScript provides a variety of string methods that allow you to manipulate and
 
   console.log(str.split(","));  // Outputs ['apple', 'banana', 'orange']
 
-**8. What are the different events in JavaScript?**
+**8.What are the different events in JavaScript?**
 
 There are many different events in JavaScript are:
 | Mouse events | Keyboard events | Form events | Window events|
@@ -105,7 +105,7 @@ JavaScript has two different types of scope.
 **11.What is the “spread” operator?**
 - The spread operator is a new feature available in ES6. It is denoted by three dots (...). while it can be used to concatenate two arrays and to insert the elements of one array into another array.
 
-**12. What is the difference between "null" and "undefined" in JavaScript?**
+**12.What is the difference between "null" and "undefined" in JavaScript?**
 - null and undefined are both special values.
 - Null value that represents no value or no object. It is an intentional absence of value. On the other hand, undefined it means that a variable has been declared but has not been assigned a value, it implicitly returns undefined.
 
@@ -137,14 +137,78 @@ display(2, 3, show);
 
 **16.What is hoisting?**
 - Before the interpreter executes the whole code in JavaScript is a default behaviour where the function, variable, or class declarations are moved to the top of the scope.
-
 ```
 console.log(x); // Outputs: undefined
 var x = 5;
 console.log(x); // Outputs: 5
 ```
+**17.What is closure?**
+- A closure is an inner function that can access the outer function variable as well as global variables.
+```
+const outerFunction = (a) => {
+   let b = 10;
+   const innerFunction = () => {
+      let add = a + b;
+      console.log(add);
+   }
+   return innerFunction;
+};
+let result = outerFunction (20);
+result();
+```
+**18.Difference in settimeout() and setinterval()?**
+- The setTimeout() method is used to call a function after a certain period of time.
+- The setInterval() method calls  is used to call a function repeatedly at a specified interval of time
+```
+const TimeoutFun = setTimeout(show, 5000);
+function show() {
+   alert('ok');
+}
+const element = document.getElementById("demo");
+setInterval(function() {element.innerHTML += "Hello"}, 1000);
+```
+**19.What is NaN in JavaScript?**
+- NaN function is used check the number in the argument.
+- If it does not contain number then it will return true else it will return false.
 
-**17.ES6 Features**
+**20.How to convert string to integer in javascript Tutorials?**
+- Using "parseInt()" function we can convert string to integer.
+
+**21.Why to use "innerHTML" in javascript?**
+- For replacing the content in the elements, we can use this method.
+
+**22.What is the use of push, pop method in javascript?**
+- push method is used for adding new items into an array in the last.
+- pop method is used for removing items from an array in the last. 
+
+```
+var products = ["TV", "Mobile", "Apparel", "Laptops"];
+products.push("MyProduct");
+console.log(products); // Expected output: Array ["TV", "Mobile", "Apparel", "Laptops", "MyProduct"]
+```
+```
+var products = ["TV", "Mobile", "Apparel", "Laptops"];
+products.pop();
+console.log(products); // Expected output: Array ["TV", "Mobile", "Apparel"]
+```
+**23.What is the use of unshift, shift method in javascript?**
+- unshift method works similar to "push" method but the items will inserted from the beginning.
+- shift method works similar to "pop" method but the items removed from the beginning.
+```
+var products = [1, 2, 3];
+products.unshift(4, 5);
+console.log(products); // Expected output: Array [4, 5, 1, 2, 3]
+```
+```
+var products = [1, 2, 3];
+products.shift();
+console.log(products); // Expected output: Array [2, 3]
+```
+
+**24.Explain Variable in javascript?**
+- Variable is used to assign a value of some type and can be reused to assign different type of values.
+
+**25.ES6 Features**
 
 ES6 comes with significant changes to the JavaScript language. It brought several new features are:
 
