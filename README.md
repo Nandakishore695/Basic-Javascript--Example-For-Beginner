@@ -205,7 +205,7 @@ products.shift();
 console.log(products); // Expected output: Array [2, 3]
 ```
 
-**24.Explain Variable in javascript?**
+**24.What Variable in javascript?**
 - Variable is used to assign a value of some type and can be reused to assign different type of values.
 
 **25.ES6 Features**
