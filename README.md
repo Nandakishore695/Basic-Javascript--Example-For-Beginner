@@ -206,20 +206,7 @@ console.log(products); // Expected output: Array [2, 3]
 ```
 
 **24.What Variable in javascript?**
-- Variable is used to assign a value of some type and can be reused to assign different type of values.
+- Variable is a container for storing data values. It is declared using the var, let, or const keyword. Variables can hold different types of values, such as numbers, strings, or objects
 
-**25.ES6 Features**
-
-ES6 comes with significant changes to the JavaScript language. It brought several new features are:
-
-- Let & Const keywords
-- Arrow Functions
-- Template Literals
-- Destructuring Assignment
-- Spread Operator
-- Rest Parameter
-- Async / Await
-- Default Parameter
-- Modules
 
 
