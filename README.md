@@ -5,7 +5,7 @@
 
 **2.How to add JavaScript to html?**
 
-There are three ways to write or add  javascript code are:
+There are three ways to write or add  javascript code are: 
 
 1. Embedding code
 2. Inline code
