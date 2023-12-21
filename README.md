@@ -120,7 +120,7 @@ JavaScript has two different types of scope.
 | In ES5, there is a use of for loop to iterate over elements | ES6 introduced the concept of for...of loop to perform an iteration over the values of the iterable objects  |
 
 **14.What is function in JavaScript?**
-- Basically, a function is a set of statements that performs a task or calculates and return a value. Functions are defined using the function keyword, followed by a name and a block of statements enclosed in curly braces Once defined, a function can be called or invoked by its name.
+- Basically, a function is a set of statements that performs a task and return a value. Functions are defined using the function keyword, followed by a name and a block of statements enclosed in curly braces Once defined, a function can be called its name.
 
 **15.What is Callback function?**
 - A callback is a function that is passed as an argument to another function, and it's executed after the completion of the main function..
