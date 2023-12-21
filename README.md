@@ -158,7 +158,7 @@ result();
 ```
 **18.Difference in settimeout() and setinterval()?**
 - The setTimeout() method is used to call a function after a certain period of time.
-- The setInterval() method calls  is used to call a function repeatedly at a specified interval of time
+- The setInterval() method is used to call a function repeatedly at a specified interval of time.
 ```
 const TimeoutFun = setTimeout(show, 5000);
 function show() {
@@ -167,17 +167,13 @@ function show() {
 const element = document.getElementById("demo");
 setInterval(function() {element.innerHTML += "Hello"}, 1000);
 ```
-**19.What is NaN in JavaScript?**
-- NaN function is used check the number in the argument.
-- If it does not contain number then it will return true else it will return false.
+**19.How to convert string to integer in javascript Tutorials?**
+- We can convert string to integer number by using "parseInt()" method. 
 
-**20.How to convert string to integer in javascript Tutorials?**
-- Using "parseInt()" function we can convert string to integer.
+**20.Why to use "innerHTML" in javascript?**
+- For replacing the content in the elements of html.
 
-**21.Why to use "innerHTML" in javascript?**
-- For replacing the content in the elements, we can use this method.
-
-**22.What is the use of push, pop method in javascript?**
+**21.What is the use of push, pop method in javascript?**
 - push method is used for adding new items into an array in the last.
 - pop method is used for removing items from an array in the last. 
 
@@ -191,7 +187,7 @@ var products = ["TV", "Mobile", "Apparel", "Laptops"];
 products.pop();
 console.log(products); // Expected output: Array ["TV", "Mobile", "Apparel"]
 ```
-**23.What is the use of unshift, shift method in javascript?**
+**22.What is the use of unshift, shift method in javascript?**
 - unshift method works similar to "push" method but the items will inserted from the beginning.
 - shift method works similar to "pop" method but the items removed from the beginning.
 ```
@@ -205,10 +201,10 @@ products.shift();
 console.log(products); // Expected output: Array [2, 3]
 ```
 
-**24.What Variable in javascript?**
+**23.What Variable in javascript?**
 - Variable is a container for storing data values. It is declared using the var, let, or const keyword. Variables can hold different types of values, such as numbers, strings, or objects
 
-**25.What is isNaN in JavaScript?**
+**24.What is isNaN in JavaScript?**
 - isNaN() is a function is used to check whether the given value is an illegal number or not. If it returns true, the value is a Not a number. Else returns false. It value is a number.
 
 
