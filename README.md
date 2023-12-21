@@ -209,7 +209,7 @@ console.log(products); // Expected output: Array [2, 3]
 - Variable is a container for storing data values. It is declared using the var, let, or const keyword. Variables can hold different types of values, such as numbers, strings, or objects
 
 **25.What is isNaN in JavaScript?**
-- isNaN() is a function is used to determine whether the given value is an illegal number or not. If it returns true, the value is a NaN - Not a number. Else returns false. It differs from the Number.
+- isNaN() is a function is used to check whether the given value is an illegal number or not. If it returns true, the value is a Not a number. Else returns false. It value is a number.
 
 
 
