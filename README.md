@@ -107,7 +107,8 @@ JavaScript has two different types of scope.
 
 **12.What is the difference between "null" and "undefined" in JavaScript?**
 - null and undefined are both special values.
-- Null value that represents no value or no object. It is an intentional absence of value. On the other hand, undefined it means that a variable has been declared but has not been assigned a value, it implicitly returns undefined.
+- Null value that represents no value or no object. It is an intentional absence of value. On the other hand,
+- Undefined it means that a variable has been declared but has not been assigned a value, it implicitly returns undefined.
 
 **13.Give a the different between comparison between ES5 and ES6?**
 
