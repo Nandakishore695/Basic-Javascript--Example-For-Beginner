@@ -136,7 +136,7 @@ display(2, 3, show);
 ```
 
 **16.What is hoisting?**
-- Before the interpreter executes the whole code in JavaScript is a default behaviour where the function, variable, or class declarations are moved to the top of the scope.
+- Before the interpreter executes the code in JavaScript is a default behaviour where the function, variable, or class declarations are moved to the top of the scope.
 ```
 console.log(x); // Outputs: undefined
 var x = 5;
