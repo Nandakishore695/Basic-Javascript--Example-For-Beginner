@@ -208,6 +208,16 @@ console.log(products); // Expected output: Array [2, 3]
 **24.What is isNaN in JavaScript?**
 - isNaN() is a function is used to check whether the given value is an illegal number or not. If it returns true, the value is a Not a number. Else returns false. It value is a number.
 
+**25.What is the difference between slice and splice?**
+
+The methods slice() and splice() are widely used methods for array manipulations. 
+
+**Slice() Method:**
+- Slice method is used to create a new array from the original array. It takes two arguments the start index, indicating where to begin the slice, and the end index is not included in the sliced array.
+
+**Slice() Method:**
+- Splice is used to add or remove items in the original array. It takes n number of arguments the start index, indicating where the modification should begin, and the number of elements to be removed. Additionally, you can include optional arguments to specify new elements to be add.
+
 
 
 
