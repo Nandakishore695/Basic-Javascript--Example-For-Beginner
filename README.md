@@ -221,7 +221,14 @@ The methods slice() and splice() are widely used methods for array manipulations
 **26.What is this keyword in JavaScript?**
 - This keyword refers to the current windows object. 
 
+**27.What are some of the built-in methods in JavaScript?**
 
-
-
-
+JavaScript provides a variety of built-in methods are:
+| String Methods | Array Methods | Number Methods | Math Methods| Date Methods| Function Methods|
+| ------------- | ------------- | ------------- |  ------------- |------------- |------------- |
+| charAt()  | push() | toFixed() | Math.random() |getDate()|bind()|
+| concat()|pop()|parseInt()|Math.floor()| Math.ceil()|getMonth()|apply()|
+|toLowerCase()|shift()| parseFloat()|Math.round()|getFullYear()|call()|
+|toUpperCase()|unshift()|getHours()|
+|length()|splice()|getMinutes()|
+||slice()|getSeconds()|
