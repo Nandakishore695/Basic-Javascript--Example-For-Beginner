@@ -218,6 +218,10 @@ The methods slice() and splice() are widely used methods for array manipulations
 **Slice() Method:**
 - Splice is used to add or remove items in the original array. It takes n number of arguments the start index, indicating where the modification should begin, and the number of elements to be removed. Additionally, you can include optional arguments to specify new elements to be add.
 
+**26.What is this keyword in JavaScript?**
+- This keyword refers to the current windows object. 
+
+
 
 
 
