@@ -189,8 +189,8 @@ products.pop();
 console.log(products); // Expected output: Array ["TV", "Mobile", "Apparel"]
 ```
 **22.What is the use of unshift, shift method in javascript?**
-- unshift method works similar to "push" method but the items will inserted from the beginning.
-- shift method works similar to "pop" method but the items removed from the beginning.
+- unshift method works like to "push" method but the items will inserted from the beginning.
+- shift method works like to "pop" method but the items removed from the beginning.
 ```
 var products = [1, 2, 3];
 products.unshift(4, 5);
