@@ -232,3 +232,17 @@ JavaScript provides a variety of built-in methods are:
 |toUpperCase()|shift()||Math.ceil()|getHours()|
 |length()   |slice()|||getMinutes()|
 ||splice()   |||getSeconds()|
+
+**28.Difference between Client-side JavaScript and Server-side JavaScript?**
+
+**Client-side:**
+- Code is executed on the user's web browser like HTML, CSS, and JavaScript.
+- Primarily responsible for the user interface and user experience
+- It handles tasks such as validating form data, executing animations,
+- Code is visible and accessible to users,
+- May use local storage, cookies
+
+**Server-side:**
+- Code is executed on the server. It includes technologies such as PHP, Python, Ruby, Java, and Node.js
+- Interacts with databases, it is responsible for processing requests, managing user authentication,
+- Code is not visible to users,
