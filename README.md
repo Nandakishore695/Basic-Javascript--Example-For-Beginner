@@ -229,6 +229,6 @@ JavaScript provides a variety of built-in methods are:
 | charAt()  | push() | toFixed() | Math.random() |getDate()|bind()|
 | concat()  | pop()|parseInt()|Math.floor()| Math.ceil()|getMonth()|apply()|
 |toLowerCase()|unshift()| parseFloat()|Math.round()|getFullYear()|call()|
-|toUpperCase()|shift()||getHours()|
-|length()   |splice()||getMinutes()|
-||slice()   ||getSeconds()|
+|toUpperCase()|shift()|||getHours()|
+|length()   |slice()|||getMinutes()|
+||splice()   |||getSeconds()|
