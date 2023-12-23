@@ -245,4 +245,9 @@ JavaScript provides a variety of built-in methods are:
 **Server-side:**
 - Code is executed on the server. It includes technologies such as PHP, Python, Ruby, Java, and Node.js
 - Interacts with databases, it is responsible for processing requests, managing user authentication,
-- Code is not visible to users,
+- Code is not visible to users
+
+**29. Difference between map and foreach?**
+- map() will return a new array
+- forEach() will not return anything and returns undefined.
+
