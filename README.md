@@ -210,7 +210,7 @@ console.log(products); // Expected output: Array [2, 3]
 
 **25.What is the difference between slice and splice?**
 
-The methods slice() and splice() are widely used methods for array manipulations. 
+slice() and splice() methods are used widely for array manipulations. 
 
 **Slice() Method:**
 - Slice method is used to create a new array from the original array. It takes two arguments the start index, indicating where to begin the slice, and the end index is not included in the sliced array.
