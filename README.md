@@ -213,7 +213,7 @@ console.log(products); // Expected output: Array [2, 3]
 slice() and splice() methods are used widely for array manipulations. 
 
 **Slice() Method:**
-- Slice method is used to create a new array from the original array. It takes two arguments the starting index, indicat where to begin the slice, and the end index is not included in the sliced array.
+- Slice method is used to create a new array from the original array. It takes two arguments the starting index, indicat where to begin the slice, and the ending index is not included in the sliced array.
 
 **Slice() Method:**
 - Splice is used to add or remove items in the original array. It takes n number of arguments the start index, indicating where the modification should begin, and the number of elements to be removed. Additionally, you can include optional arguments to specify new elements to be add.
