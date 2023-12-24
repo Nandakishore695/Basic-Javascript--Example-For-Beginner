@@ -262,6 +262,6 @@ Loop are used to repeatedly execute a block of code until a condition reach.
 - do while loop
 - while loop
 
-For of loop is use when you want to go through each item in a collection.
+**For of loop** is use when you want to go through each item in a collection.
 
-For in loop is use when you want to go loop through the properties of an object.
+**For in loop** is use when you want to go loop through the properties of an object.
