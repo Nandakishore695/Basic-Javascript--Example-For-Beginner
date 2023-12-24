@@ -251,7 +251,7 @@ JavaScript provides a variety of built-in methods are:
 - map() method will return a new array
 - forEach() method will not return anything and returns undefined.
 
-**30.What is loop and how many types of loops in javascript?**
+**30.What is loop and how many types of loops What is the difference between for... of and for... in javascript?**
 
 Loop are used to repeatedly execute a block of code until a condition reach.
 
