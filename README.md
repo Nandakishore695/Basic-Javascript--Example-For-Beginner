@@ -259,10 +259,10 @@ Loop are used to repeatedly execute a block of code until a condition true.
 
 **It has 5 types of loops are:**
 - for loop
+- while loop
+- do while loop
 - for in loop
 - for of loop
-- do while loop
-- while loop
 
 **For of loop** is use when you want to go through each item in a collection.
 
