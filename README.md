@@ -248,6 +248,8 @@ JavaScript provides a variety of built-in methods are:
 - Code is not visible to users
 
 **29. Difference between map and foreach?**
+
+Both are array methods that are used to iterate the elements of the array.
 - map() method will return a new array
 - forEach() method will not return anything and returns undefined.
 
