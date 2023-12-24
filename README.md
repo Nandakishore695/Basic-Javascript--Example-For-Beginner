@@ -255,7 +255,7 @@ Both are array methods that are used to iterate the elements of the array.
 
 **30.What is loop and how many types of loops What is the difference between for... of and for... in javascript?**
 
-Loop are used to repeatedly execute a block of code until a condition reach.
+Loop are used to repeatedly execute a block of code until a condition true.
 
 **It has 5 types of loops are:**
 - for loop
