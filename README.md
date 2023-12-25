@@ -243,7 +243,7 @@ JavaScript provides a variety of built-in methods are:
 - Use local storage and cookies
 
 **Server-side:**
-- Code is executed on the server. It includes technologies such as PHP, Python, Ruby, Java, and Node.js
+- Code is executed on the server such as PHP, Python, Ruby, Java, and Node.js
 - Interacts with databases, it is responsible for processing requests, managing user authentication,
 - Code is not visible to users
 
