@@ -255,7 +255,7 @@ Both are array methods that are used to iterate the elements of the array.
 
 **30.What is loop and how many types of loops What is the difference between for... of and for... in javascript?**
 
-Loop are used to repeatedly execute a block of code until a condition true.
+Loops are used to repeatedly execute a block of code until a condition true.
 
 **It has 5 types of loops are:**
 - for loop
@@ -264,6 +264,19 @@ Loop are used to repeatedly execute a block of code until a condition true.
 - for in loop
 - for of loop
 
+**For in loop** is use when you want to go through the properties of an object.
+```
+var animal = {name: "tiger", leg: 4};
+for(let key in animal){
+   console.log(key) // Expected output: name, leg
+   console.log(key, animal[key]) // Expected output: name tiger, leg 4
+}
+```
 **For of loop** is use when you want to go through each item in a collection.
-
-**For in loop** is use when you want to go loop through the properties of an object.
+```
+var person = ["Nandakishore", Naveen, Bajrang];
+for(let index of person){
+   console.log(index) // Expected output: 0, 1, 2
+   console.log(index, person[index]) // Expected output: 0 Nandakishore, 1 Naveen, 2 Bajrang
+}
+```
