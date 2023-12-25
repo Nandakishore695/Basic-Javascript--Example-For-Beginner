@@ -238,9 +238,9 @@ JavaScript provides a variety of built-in methods are:
 **Client-side:**
 - Code is executed on the user's web browser like HTML, CSS, and JavaScript.
 - Primarily responsible for the user interface and user experience
-- It handles tasks such as validating form data, executing animations,
-- Code is visible and accessible to users,
-- May use local storage, cookies
+- It handles form validating, animations
+- Code is visible and accessible to users
+- Use local storage and cookies
 
 **Server-side:**
 - Code is executed on the server. It includes technologies such as PHP, Python, Ruby, Java, and Node.js
