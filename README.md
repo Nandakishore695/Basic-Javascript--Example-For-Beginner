@@ -287,7 +287,9 @@ for(let index of person){
 - A promise is an object that may produce a single value in the future, either resolved with a value or rejected with a reason (error). Promises are in three states:
 
 **Pending**
+
 **Fulfilled**
+
 **Rejected**
 ```
 var result = new Promise(function(resolve,reject){
