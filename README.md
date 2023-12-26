@@ -281,4 +281,25 @@ for(let index of person){
 }
 ```
 **31.What is callback hell?**
-- Callback hell mean inside a function multiple nested callback 
+- Callback hell mean inside a function multiple nested callback
+
+**32.What are Promises?**
+- A promise is an object that may produce a single value in the future, either resolved with a value or rejected with a reason (error). Promises are in three states:
+
+**Pending**
+**Fulfilled**
+**Rejected**
+```
+var result = new Promise(function(resolve,reject){
+	var bool = true;
+	If(bool){
+	   resolve(“it is true”);
+	}
+	else{ 
+	   reject(“it’s false”);
+}
+)
+console.log(result);
+result.then(function(value){ console.log(value);})
+      .catch(function(value){ console.log(value);})
+```
