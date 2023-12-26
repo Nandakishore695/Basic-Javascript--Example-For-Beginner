@@ -280,3 +280,5 @@ for(let index of person){
    console.log(index, person[index]) // Expected output: 0 Nandakishore, 1 Naveen, 2 Bajrang
 }
 ```
+**31.What is callback hell?**
+- Callback hell mean inside a function multiple nested callback 
