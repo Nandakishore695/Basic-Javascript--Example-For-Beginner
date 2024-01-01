@@ -329,5 +329,8 @@ function Person(name, age) {
 var person1 = new Person("John", 30);
 ```
 **iv.Objec.create() Method**
-
+```
+const myPrototype = { x: 10, y: 20 };
+const myObject = Object.create(myPrototype);
+```
 **v.Classes**
