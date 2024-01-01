@@ -305,3 +305,29 @@ console.log(result);
 result.then(function(value){ console.log(value);})
       .catch(function(value){ console.log(value);})
 ```
+**33.What are the possible ways to create objects?**
+- Object is a collection of elements, in the form of properties and methods
+  
+**i.Object literal syntax:**
+```
+var object = {
+     name: "Sudheer",
+     age: 34
+};
+```
+**ii.Using new keyword with object constructor**
+```
+var object = new Object();
+```
+**iii..Using new keyword with a constructor function**
+```
+function Person(name, age) {
+  this.name = name;
+  this.age = age;
+}
+
+var person1 = new Person("John", 30);
+```
+**iv.Objec.create() Method**
+
+**v.Classes**
