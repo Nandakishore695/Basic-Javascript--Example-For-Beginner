@@ -1,6 +1,6 @@
 # Basic Javascript Questions and Answer
 
-**1.What is JavaScript?** 
+**1.What is JavaScript?**  
 - JavaScript is a client-side scripting language used to create dynamic features for web applications, making them more user-friendly and engaging.(e.g :-clickable buttons, popup menus, etc.)
 
 **2.How to add JavaScript to html?**
