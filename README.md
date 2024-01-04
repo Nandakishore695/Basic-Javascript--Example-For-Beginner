@@ -104,6 +104,11 @@ JavaScript has two different types of scope.
 
 **11.What is the “spread” operator?**
 - The spread operator is a new feature available in ES6. It is denoted by three dots (...). while it can be used to concatenate two arrays and to insert the elements of one array into another array.
+```
+const array1 = [1, 2, 3];
+const array2 = [4, 5, 6];
+console.log(...array1, ...array2); // Expected output: [1, 2, 3, 4, 5, 6]
+```
 
 **12.What is the difference between "null" and "undefined" in JavaScript?**
 - null and undefined are both special values.
