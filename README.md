@@ -339,3 +339,7 @@ const myPrototype = { x: 10, y: 20 };
 const myObject = Object.create(myPrototype); 
 ```
 **v.Classes**
+
+**34.Different between Transpiler and Compiler?**
+- A transpiler is a tool that converts source code from one high-level programming language(jsx) to angother high-level programming language(Javaascript)
+- A compiler is a tool that converts high-level programming language(java) into a lower-level language(machine code or bytecode)
