@@ -343,3 +343,22 @@ const myObject = Object.create(myPrototype);
 **34.Different between Transpiler and Compiler?**
 - A transpiler is a tool that converts source code from one high-level programming language(jsx) to angother high-level programming language(Javaascript)
 - A compiler is a tool that converts high-level programming language(java) into a lower-level language(machine code or bytecode)
+
+**35.What is Parameter, Argument and Rest Parameter?**
+- A parameter is a variable listed in the function declaration
+- An argument is the actual value that is passed into the function when it is invoked
+- It is represented by three dots (...) followed by a parameter name. 
+```
+function add(a, b) {
+  // 'a' and 'b' are parameters
+  return a + b;
+}
+let result = add(3, 5); // '3' and '5' are argument
+
+function sum(...numbers) {
+  // 'numbers' is a rest parameter
+  return numbers.reduce((total, num) => total + num, 0);
+}
+
+let result = sum(1, 2, 3, 4, 5);
+```
