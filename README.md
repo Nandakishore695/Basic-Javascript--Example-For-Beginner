@@ -362,3 +362,6 @@ function sum(...numbers) {
 
 let result = sum(1, 2, 3, 4, 5);
 ```
+**36.What is template literal in ES6 Version?**
+- ES6 introduce later versions of JavaScript, called backticks (``) template literal.
+- New way to define strings. Template literals have some advantages over traditional string literals enclosed in single or double quotes.
