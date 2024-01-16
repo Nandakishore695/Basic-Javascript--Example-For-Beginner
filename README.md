@@ -365,3 +365,19 @@ let result = sum(1, 2, 3, 4, 5);
 **36.What is template literal in ES6 Version?**
 - ES6 introduce later versions of JavaScript, called backticks (``) template literal.
 - New way to define strings. Template literals have some advantages over traditional string literals enclosed in single or double quotes.
+```
+//Traditional way
+let name = "John";
+let greeting = "Hello, " + name + "!";
+let multiLineString = "name: \n Hello\n name "; //for line breaks:'\n'
+let stringWithQuotes = "This is a string with single 'quotes' and double \"quotes\".";
+
+
+//New way
+let name = "John";
+let greeting = `Hello, ${name}!`;
+let multiLineString = `Line 1
+Line 2
+Line 3`;
+let stringWithQuotes = `This is a string with single 'quotes' and double "quotes".`;
+```
