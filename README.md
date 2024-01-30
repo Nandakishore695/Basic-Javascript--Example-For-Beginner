@@ -384,3 +384,5 @@ Line 2
 Line 3`;
 let stringWithQuotes = `This is a string with single 'quotes' and double "quotes".`;
 ```
+**38.Different between `IF/ELSE` vs `Switch`?**
+**39.What is the use of using strict mode?**
