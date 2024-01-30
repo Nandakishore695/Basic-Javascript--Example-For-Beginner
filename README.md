@@ -34,7 +34,7 @@ There are two types of data types in JavaScript:-
 **Both are comparison operators.**
 
 - `Loose equality` operators is used to compare two values and returns true. If they are equal
-- Strict equality operators is used to compare two values and same-types.
+- `Strict equality` operators is used to compare two values and same-types.
 
 **6.What is the difference between var and let and const?**
 
