@@ -393,7 +393,7 @@ let stringWithQuotes = `This is a string with single 'quotes' and double "quotes
 <script>
 "use strict";
 function myFunction(a,a) { //show error duplicate defined a parameter
-     add = a + 10;
+     add = a + 10; // add is not defined at myFunction
      console.log(add)
 }
 myFunction(5,5)
