@@ -385,4 +385,7 @@ Line 3`;
 let stringWithQuotes = `This is a string with single 'quotes' and double "quotes".`;
 ```
 **38.Different between `IF/ELSE` vs `Switch`?**
+- Both If-else and Switch both are use excuite the conditional the main difference between is if-else statement is executed based on the multiple condition like using logical operator. On the other and switch statements execute as per the user decision.
+  
 **39.What is the use of using strict mode?**
+
