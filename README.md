@@ -389,3 +389,13 @@ let stringWithQuotes = `This is a string with single 'quotes' and double "quotes
   
 **39.What is the use of using strict mode?**
 - Strict mode is a feature that was introduced in ECMAScript 5 to help developers write and maintainable code by catching common mistakes and preventing the certain error
+```
+<script>
+"use strict";
+function myFunction(a,a) { //show error duplicate defined a parameter
+     add = a + 10;
+     console.log(add)
+}
+myFunction(5,5)
+<script>
+```
