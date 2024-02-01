@@ -399,3 +399,4 @@ function myFunction(a,a) { //show error duplicate defined a parameter
 myFunction(5,5)
 <script>
 ```
+**40.What is the different between `Arrow function` and `Normal function`?**
