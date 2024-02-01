@@ -400,3 +400,4 @@ myFunction(5,5)
 <script>
 ```
 **40.What is the different between `Arrow function` and `Normal function`?**
+Explain about loops with different
