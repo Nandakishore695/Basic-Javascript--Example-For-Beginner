@@ -400,5 +400,7 @@ myFunction(5,5)
 <script>
 ```
 **40.What is the different between `Arrow function` and `Normal function`?**
+- Arrow functions do not have their own this context.
+- egular functions have their own this context, 
 
 **41.Explain about loops different between?**
