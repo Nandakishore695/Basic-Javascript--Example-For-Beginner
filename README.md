@@ -404,3 +404,6 @@ myFunction(5,5)
 - egular functions have their own this context, 
 
 **41.Explain about loops different between?**
+
+42.What is bug explain?
+
