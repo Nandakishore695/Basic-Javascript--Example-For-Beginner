@@ -405,5 +405,7 @@ myFunction(5,5)
 
 **41.Explain about loops different between?**
 
-42.What is bug explain?
+**42.What is bug explain?**
+- Bugs are completely normal in software development
+- 
 
