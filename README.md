@@ -407,5 +407,5 @@ myFunction(5,5)
 
 **42.What is bug explain?**
 - Bugs are completely normal in software development
-- 
+- Problem in a computer program. 
 
