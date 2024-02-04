@@ -407,5 +407,5 @@ myFunction(5,5)
 
 **42.What is bug explain?**
 - Bugs are completely normal in software development
-- Problem in a computer program. 
+- Problem in a computer program. Basically, any unexpected or unintended behavior of a computer program is a software bug.
 
