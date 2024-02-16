@@ -409,3 +409,7 @@ myFunction(5,5)
 - Bugs are completely normal in software development
 - Problem in a computer program. Basically, any unexpected or unintended behavior of a computer program is a software bug.
 - A real bug which was cause an error in harvard's computer in the 1940s
+
+**43.What are debugging tool?**
+- Debugging tools are essential for web developers to identify and fix issues in their code.
+- Console, Debugging, Postman, Redux DevTool
