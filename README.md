@@ -413,3 +413,6 @@ myFunction(5,5)
 **43.What are debugging tool?**
 - Debugging tools are essential for web developers to identify and fix issues in their code.
 - Console, Debugging, Postman, Redux DevTool
+
+**44.What is the different between if else and ternary?**
+**45.How we handle error in javascript?**
