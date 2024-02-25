@@ -415,4 +415,5 @@ myFunction(5,5)
 - Console, Debugging, Postman, Redux DevTool
 
 **44.What is the different between if else and ternary?**
+
 **45.How we handle error in javascript?**
