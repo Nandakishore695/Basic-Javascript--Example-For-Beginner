@@ -421,3 +421,5 @@ myFunction(5,5)
 **44.What is the different between if else and ternary?**
 
 **45.How we handle error in javascript?**
+
+**46.What is event bubbling and capturing?**
