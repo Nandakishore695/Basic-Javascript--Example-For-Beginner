@@ -2,7 +2,7 @@
 
 **History of Javascript**
 
-- JavaScript was invented by Brendan Eich in 1995.It was originally named Mocha, but quickly became known as LiveScript and, later, JavaScript. and interpreted language
+- JavaScript was invented by Brendan Eich in 1995.It was originally named Mocha, but quickly became known as LiveScript and, later, JavaScript. and interpreted language with single threaded
 
 **1.What is JavaScript?**  
 - JavaScript is a client-side scripting language used to create dynamic features for web applications, making them more user-friendly and engaging.(e.g :-clickable buttons, popup menus, etc.)
