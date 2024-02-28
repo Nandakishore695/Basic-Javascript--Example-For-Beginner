@@ -22,7 +22,8 @@ There are three ways to write or add  javascript code are:
 
 There are two types of data types in JavaScript:-
 
-
+| Primitive  | Non-primitive |
+| ------------- | ------------- |
 | String  | Object |
 | Number  | Array |
 | Boolean  | RegExp |
@@ -53,8 +54,7 @@ There are two types of data types in JavaScript:-
 
 JavaScript provides a variety of string methods that allow you to manipulate and work with strings.
 
-| Primitive  | |
-| ------------- |-|
+
 | length  | trimStart() |
 | concat()  | trimEnd() |
 | toUpperCase() | charAt() |
