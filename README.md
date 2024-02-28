@@ -170,8 +170,9 @@ let result = outerFunction (20);
 result();
 ```
 **19.Difference in settimeout() and setinterval()?**
-- The setTimeout() method is used to call a function after a certain period of time.
-- The setInterval() method is used to call a function repeatedly at a specified interval of time.
+- setTimeout() method is used to call a function after a certain period of time.
+- setInterval() method is used to call a function repeatedly at a specified interval of time.
+- clearInterval() method is used to stop the execution of a function
 ```
 const TimeoutFun = setTimeout(show, 5000);
 function show() {
