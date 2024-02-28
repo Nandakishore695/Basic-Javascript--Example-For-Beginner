@@ -423,3 +423,6 @@ myFunction(5,5)
 **45.How we handle error in javascript?**
 
 **46.What is event bubbling and capturing?**
+
+Why do we use the word “debugger” in JavaScript?
+The word “debugger” is used in JavaScript to refer to a tool that can be used to step through JavaScript code line by line. This can be helpful for debugging JavaScript code, which is the process of finding and fixing errors in JavaScript code. 
