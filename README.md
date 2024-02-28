@@ -54,7 +54,7 @@ There are two types of data types in JavaScript:-
 
 JavaScript provides a variety of string methods that allow you to manipulate and work with strings.
 
-
+| String Method| String Method |
 | ------------- |-|
 | length  | trimStart() |
 | concat()  | trimEnd() |
