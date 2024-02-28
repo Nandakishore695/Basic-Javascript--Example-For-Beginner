@@ -54,16 +54,16 @@ There are two types of data types in JavaScript:-
 
 JavaScript provides a variety of string methods that allow you to manipulate and work with strings.
 
-- length 
-- concat()
-- toUpperCase()
-- toLowerCase()
-- indexOf()
-- trim() 
-- charAt()
-- replace()
-- slice()
-- split()
+| Primitive  | |
+| ------------- |-|
+| length  | trimStart() |
+| concat()  | trimEnd() |
+| toUpperCase() | charAt() |
+| toLowerCase() | replace() |
+| indexOf() | slice() |
+| trim() | split() |
+| repeat() | replaceAll() |
+| substring() | substr() |
 
   let str = "Hello, World!";
   
