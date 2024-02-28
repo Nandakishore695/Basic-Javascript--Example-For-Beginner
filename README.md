@@ -434,3 +434,9 @@ myFunction(5,5)
 **49.What is currying in JavaScript?**
 
 **50.Explain call(), apply() and, bind() methods?**
+
+**51.What do you mean by BOM?**
+
+**52.What are classes in javascript?**
+
+**53.Explain Async/Await?**
