@@ -57,10 +57,10 @@ JavaScript provides a variety of string methods that allow you to manipulate and
 | String Method| String Method |
 | ------------- |-|
 | length  | repeat() |
-| concat()  | substring() |
-| toUpperCase() | substr() |
-| toLowerCase() | replace() |
-| indexOf() | replaceAll() |
+| concat()  | replaceAll() |
+| toUpperCase() | replace()|
+| toLowerCase() | substr()  |
+| indexOf() | substring() |
 | trim() | split() |
 | trimStart() | slice() |
 | trimEnd() | charAt() |
