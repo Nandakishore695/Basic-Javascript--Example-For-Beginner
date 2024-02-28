@@ -56,14 +56,14 @@ JavaScript provides a variety of string methods that allow you to manipulate and
 
 | String Method| String Method |
 | ------------- |-|
-| length  | trimStart() |
-| concat()  | trimEnd() |
-| toUpperCase() | charAt() |
+| length  | repeat() |
+| concat()  | substring() |
+| toUpperCase() | substr() |
 | toLowerCase() | replace() |
-| indexOf() | slice() |
+| indexOf() | replaceAll() |
 | trim() | split() |
-| repeat() | replaceAll() |
-| substring() | substr() |
+| trimStart() | slice() |
+| trimEnd() | charAt() |
 
   let str = "Hello, World!";
   
