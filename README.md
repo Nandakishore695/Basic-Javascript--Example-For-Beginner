@@ -425,5 +425,10 @@ myFunction(5,5)
 
 **46.What is event bubbling and capturing?**
 
-Why do we use the word “debugger” in JavaScript?
-The word “debugger” is used in JavaScript to refer to a tool that can be used to step through JavaScript code line by line. This can be helpful for debugging JavaScript code, which is the process of finding and fixing errors in JavaScript code. 
+**47.Why do we use the word “debugger” in JavaScript?**
+- The word “debugger” is used in JavaScript to refer to a tool that can be used to step through JavaScript code line by line. This can be helpful for debugging JavaScript code, which is the process of finding and fixing errors in JavaScript code. 
+
+**48.Type Coercion in javascript?**
+- Implicit type coercion in javascript is the automatic conversion of value from one data type to another. It takes place when the operands of an expression are of different data types.
+
+**49.What is NaN property in JavaScript?**
