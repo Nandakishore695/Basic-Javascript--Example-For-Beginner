@@ -431,4 +431,6 @@ myFunction(5,5)
 **48.Type Coercion in javascript?**
 - Implicit type coercion in javascript is the automatic conversion of value from one data type to another. It takes place when the operands of an expression are of different data types.
 
-**49.What is NaN property in JavaScript?**
+**49.What is currying in JavaScript?**
+
+**50.Explain call(), apply() and, bind() methods?**
