@@ -185,7 +185,7 @@ setInterval(function() {element.innerHTML += "Hello"}, 1000);
 - We can convert string to integer number by using "parseInt()" method. 
 
 **21.Why to use "innerHTML" in javascript?**
-- For replacing the content in the elements of html.
+- For replacing the content in the html elements.
 
 **22.What is the use of push, pop method in javascript?**
 - push method is used for adding new items into an array in the last.
