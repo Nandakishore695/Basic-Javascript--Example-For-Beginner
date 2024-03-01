@@ -116,11 +116,6 @@ const array1 = [1, 2, 3];
 const array2 = [...array1, 4, 5, 6];
 console.log(array2) //Output: [1, 2, 3, 4, 5, 6]
 ```
-```
-const array1 = [1, 2, 3];
-const array2 = [4, 5, 6];
-console.log(...array1, ...array2); // Expected output: [1, 2, 3, 4, 5, 6]
-```
 
 **13.What is the difference between "null" and "undefined" in JavaScript?**
 - null and undefined are both special values.
