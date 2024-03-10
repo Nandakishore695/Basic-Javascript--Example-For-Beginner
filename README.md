@@ -17,8 +17,14 @@ There are three ways to write or add  javascript code are:
 1. Embedding code
 2. Inline code
 3. External file
+
+**4.What does "use strict"?**
+- Strict mode is introduced in (ES5). Strict mode is useful in situations where you can create a global variables can create bugs in the code 
+```
+x = 9; // ReferenceError: x is not defined
+```
    
-**4.What are Data Types?**
+**5.What are Data Types?**
 
 There are two types of data types in JavaScript:-
 
@@ -33,24 +39,24 @@ There are two types of data types in JavaScript:-
 
 - String :- Represents a series of characters.A string can be represented in either single (' ') or double (" ") quotes,  
 
-**5.Difference between “ == “ and “ === “ operators?**
+**6.Difference between “ == “ and “ === “ operators?**
 
 **Both are comparison operators.**
 
 - `Loose equality` operators is used to compare two values and returns true. If they are equal
 - `Strict equality` operators is used to compare two values and same datatypes.
 
-**6.What is the difference between var and let and const?**
+**7.What is the difference between var and let and const?**
 
 - **Var** is as a global-scope. so, we can access  from everywhere (inside and outside functions). and with **var** can be redeclared and reassigned value.
 - **Let** is as a block-scope. so **let** can be reassigned the value, but they cannot be redeclared. 
 - **Const** is a block-scope, cannot be reassigned or redeclared after initialization.
 
-**7.what is synchronous and asynchronous?**
+**8.what is synchronous and asynchronous?**
 - Synchronous is single-thread, which means one program will run at a time.
 - Asynchronous is multi-thread, which means programs can run in parallel.
 
-**8.What are the string method in javascript and Explain?**
+**9.What are the string method in javascript and Explain?**
 
 JavaScript provides a variety of string methods that allow you to manipulate and work with strings.
 
@@ -87,7 +93,7 @@ JavaScript provides a variety of string methods that allow you to manipulate and
 
   console.log(str.split(","));  // Outputs ['apple', 'banana', 'orange']
 
-**9.What are the different events in JavaScript?**
+**10.What are the different events in JavaScript?**
 
 There are many different events in JavaScript are:
 | Mouse events | Keyboard events | Form events | Window events|
@@ -98,18 +104,18 @@ There are many different events in JavaScript are:
 |  |  | onblur ||
 
 
-**10.What is Babel, and why is it used in JavaScript development?**
+**11.What is Babel, and why is it used in JavaScript development?**
 
 - Babel is a JavaScript compiler. It is used to convert code from a non-JavaScript language into JavaScript like React code.
 
-**11.What is scope in javascript?**
+**12.What is scope in javascript?**
 
 JavaScript has two different types of scope. 
 
 - **Global-scope:** Variables declared outside of any function become global variables. It can be accessed and modified from any function.
 - **Block-scope:** Variables declared inside a function. It cannot be accessed or modified outside of the function.
 
-**12.What is the “spread” operator?**
+**13.What is the “spread” operator?**
 - The spread operator is introuduce in ES6. It is denoted by three dots (...). It is used to concatenate two arrays.
 ```
 const array1 = [1, 2, 3];
@@ -117,12 +123,12 @@ const array2 = [...array1, 4, 5, 6];
 console.log(array2) //Output: [1, 2, 3, 4, 5, 6]
 ```
 
-**13.What is the difference between "null" and "undefined" in JavaScript?**
+**14.What is the difference between "null" and "undefined" in JavaScript?**
 - null and undefined are both special values.
 - Null value that represents no value or no object. It is an intentional absence of value. On the other hand,
 - Undefined it means that a variable has been declared but has not been assigned a value, it implicitly returns undefined.
 
-**14.Give a the different between comparison between ES5 and ES6?**
+**15.Give a the different between comparison between ES5 and ES6?**
 
 | ECMAScript5  | ECMAScript6 |
 | ------------- | ------------- |
@@ -132,10 +138,10 @@ console.log(array2) //Output: [1, 2, 3, 4, 5, 6]
 | In ES5, both function and return keywords are used to define a function | An arrow function is a new feature introduced in ES6 by which we don't require the function keyword to define the function  |
 | In ES5, there is a use of for loop to iterate over elements | ES6 introduced the concept of for...of loop to perform an iteration over the values of the iterable objects  |
 
-**15.What is function in JavaScript?**
+**16.What is function in JavaScript?**
 - Basically, a function is a set of statements that performs a specific task and returns a value. Functions can take parameters, which act as inputs. They are defined using the function keyword, followed by a name and a block of statements enclosed in curly braces. Once defined, a function can be invoked by using its name.
 
-**16.What is Callback function?**
+**17.What is Callback function?**
 - A callback is a function that is passed as an argument to another function, and it's executed after the completion of the main function..
 ```
 function show(sum) {
@@ -148,14 +154,14 @@ function display(num1, num2, myshow) {
 display(2, 3, show);
 ```
 
-**17.What is hoisting?**
+**18.What is hoisting?**
 - Before the interpreter executes the code in JavaScript is a default behaviour where the function, variable, or class declarations are moved to the top of the scope.
 ```
 console.log(x); // Outputs: undefined
 var x = 5;
 console.log(x); // Outputs: 5
 ```
-**18.What is closure?**
+**19.What is closure?**
 - A closure is an inner function that can access the outer function variable as well as global variables.
 ```
 const outerFunction = (a) => {
@@ -169,7 +175,7 @@ const outerFunction = (a) => {
 let result = outerFunction (20);
 result();
 ```
-**19.Difference in settimeout() and setinterval()?**
+**20.Difference in settimeout() and setinterval()?**
 - setTimeout() method is used to call a function after a certain period of time.
 - setInterval() method is used to call a function repeatedly at a specified interval of time.
 - clearInterval() method is used to stop the execution of a function
@@ -181,13 +187,13 @@ function show() {
 const element = document.getElementById("demo");
 setInterval(function() {element.innerHTML += "Hello"}, 1000);
 ```
-**20.How to convert string to integer in javascript Tutorials?**
+**21.How to convert string to integer in javascript Tutorials?**
 - We can convert string to integer number by using "parseInt()" method. 
 
-**21.Why to use "innerHTML" in javascript?**
+**22.Why to use "innerHTML" in javascript?**
 - For replacing the content in the html elements.
 
-**22.What is the use of push, pop method in javascript?**
+**23.What is the use of push, pop method in javascript?**
 - push method is used for adding new items into an array in the last.
 - pop method is used for removing items from an array in the last. 
 
@@ -201,7 +207,7 @@ var products = ["TV", "Mobile", "Apparel", "Laptops"];
 products.pop();
 console.log(products); // Expected output: Array ["TV", "Mobile", "Apparel"]
 ```
-**23.What is the use of unshift, shift method in javascript?**
+**24.What is the use of unshift, shift method in javascript?**
 - unshift method will inserted item into an array from the beginning.
 - shift method will removed item from the beginning.
 ```
@@ -215,13 +221,13 @@ products.shift();
 console.log(products); // Expected output: Array [2, 3]
 ```
 
-**24.What Variable in javascript?**
+**25.What Variable in javascript?**
 - Variable is a container for storing data values. It is declared using the var, let, or const keyword. Variables can hold different types of values, such as numbers, strings, or objects
 
-**25.What is isNaN in JavaScript?**
+**26.What is isNaN in JavaScript?**
 - isNaN() is a function is used to check whether the given value is an illegal number or not. If it returns true, the value is a Not a number. Else returns false. It value is a number.
 
-**26.What is the difference between slice and splice?**
+**27.What is the difference between slice and splice?**
 
 slice() and splice() methods are used widely for array manipulations. 
 
@@ -231,10 +237,10 @@ slice() and splice() methods are used widely for array manipulations.
 **Splice() Method:**
 - Splice method is used to add or remove items from the original array. It takes n number of arguments the starting index, indicat where the modification should begin, and the number of elements to be removed. Additionally, you can include optional arguments to specify new elements to be add.
 
-**27.What is this keyword in JavaScript?**
+**28.What is this keyword in JavaScript?**
 - This keyword refers to the current windows object. 
 
-**28.What are some of the built-in methods in JavaScript?**
+**29.What are some of the built-in methods in JavaScript?**
 
 JavaScript provides a variety of built-in methods are:
 | String Methods | Array Methods | Number Methods | Math Methods| Date Methods| Function Methods|
@@ -246,7 +252,7 @@ JavaScript provides a variety of built-in methods are:
 |length()   |slice()|||getMinutes()|
 ||splice()   |||getSeconds()|
 
-**29.Difference between Client-side JavaScript and Server-side JavaScript?**
+**30.Difference between Client-side JavaScript and Server-side JavaScript?**
 
 **Client-side:**
 - Code is executed on the user's web browser like HTML, CSS, and JavaScript.
@@ -260,13 +266,13 @@ JavaScript provides a variety of built-in methods are:
 - Interacts with databases, it is responsible for processing requests, managing user authentication,
 - Code is not visible to users
 
-**30. Difference between map and foreach?**
+**31.Difference between map and foreach?**
 
 Both are array methods that are used to iterate the elements of the array.
 - map() method will return a new array
 - forEach() method will not return anything and returns undefined.
 
-**31.What is loop and how many types of loops What is the difference between for... of and for... in javascript?**
+**32.What is loop and how many types of loops What is the difference between for... of and for... in javascript?**
 
 Loops are used to repeatedly execute a block of code until a condition true.
 
@@ -293,10 +299,10 @@ for(let index of person){
    console.log(index, person[index]) // Expected output: 0 Nandakishore, 1 Naveen, 2 Bajrang
 }
 ```
-**32.What is callback hell?**
+**33.What is callback hell?**
 - Callback hell mean inside a function multiple nested callback
 
-**33.What are Promises?**
+**34.What are Promises?**
 - A promise is an object that may produce a single value in the future, either resolved with a value or rejected with a reason (error). Promises are in three states:
 
 **Pending**
@@ -318,7 +324,7 @@ console.log(result);
 result.then(function(value){ console.log(value);})
       .catch(function(value){ console.log(value);})
 ```
-**34.What are the possible ways to create objects?**
+**35.What are the possible ways to create objects?**
 - Object is a collection of elements, in the form of properties and methods
   
 **i.Object literal syntax:**
@@ -348,11 +354,11 @@ const myObject = Object.create(myPrototype);
 ```
 **v.Classes**
 
-**35.Different between Transpiler and Compiler?**
+**36.Different between Transpiler and Compiler?**
 - A transpiler is a tool that converts source code from one high-level programming language(jsx) to angother high-level programming language(Javaascript)
 - A compiler is a tool that converts high-level programming language(java) into a lower-level language(machine code or bytecode)
 
-**36.What is Parameter, Argument and Rest Parameter?**
+**37.What is Parameter, Argument and Rest Parameter?**
 - A parameter is a variable listed in the function declaration
 - An argument is the actual value that is passed into the function when it is invoked
 - It is represented by three dots (...) followed by a parameter name. 
@@ -370,7 +376,7 @@ function sum(...numbers) {
 
 let result = sum(1, 2, 3, 4, 5);
 ```
-**37.What is template literal in ES6 Version?**
+**38.What is template literal in ES6 Version?**
 - ES6 introduce later versions of JavaScript, called backticks (``) template literal.
 - New way to define strings. Template literals have some advantages over traditional string literals enclosed in single or double quotes.
 ```
@@ -389,10 +395,10 @@ Line 2
 Line 3`;
 let stringWithQuotes = `This is a string with single 'quotes' and double "quotes".`;
 ```
-**38.Different between `IF/ELSE` vs `Switch`?**
+**39.Different between `IF/ELSE` vs `Switch`?**
 - Both If-else and Switch both are use excuite the conditional the main difference between is if-else statement is executed based on the multiple condition like using logical operator. On the other and switch statements execute as per the user decision.
   
-**39.What is the use of using strict mode?**
+**40.What is the use of using strict mode?**
 - Strict mode is a feature that was introduced in ECMAScript 5 to help developers write and maintainable code by catching common mistakes and preventing the certain error
 ```
 <script>
@@ -404,39 +410,39 @@ function myFunction(a,a) { //show error duplicate defined a parameter
 myFunction(5,5)
 <script>
 ```
-**40.What is the different between `Arrow function` and `Normal function`?**
+**41.What is the different between `Arrow function` and `Normal function`?**
 - Arrow functions do not have their own this context.
 - egular functions have their own this context, 
 
-**41.Explain about loops different between?**
+**42.Explain about loops different between?**
 
-**42.What is bug explain?**
+**43.What is bug explain?**
 - Bugs are completely normal in software development
 - Problem in a computer program. Basically, any unexpected or unintended behavior of a computer program is a software bug.
 - A real bug which was cause an error in harvard's computer in the 1940s
 
-**43.What are debugging tool?**
+**44.What are debugging tool?**
 - Debugging tools are essential for web developers to identify and fix issues in their code.
 - Console, Debugging, Postman, Redux DevTool
 
-**44.What is the different between if else and ternary?**
+**45.What is the different between if else and ternary?**
 
-**45.How we handle error in javascript?**
+**46.How we handle error in javascript?**
 
-**46.What is event bubbling and capturing?**
+**47.What is event bubbling and capturing?**
 
-**47.Why do we use the word “debugger” in JavaScript?**
+**48.Why do we use the word “debugger” in JavaScript?**
 - The word “debugger” is used in JavaScript to refer to a tool that can be used to step through JavaScript code line by line. This can be helpful for debugging JavaScript code, which is the process of finding and fixing errors in JavaScript code. 
 
-**48.Type Coercion in javascript?**
+**49.Type Coercion in javascript?**
 - Implicit type coercion in javascript is the automatic conversion of value from one data type to another. It takes place when the operands of an expression are of different data types.
 
-**49.What is currying in JavaScript?**
+**45.What is currying in JavaScript?**
 
-**50.Explain call(), apply() and, bind() methods?**
+**51.Explain call(), apply() and, bind() methods?**
 
-**51.What do you mean by BOM?**
+**52.What do you mean by BOM?**
 
-**52.What are classes in javascript?**
+**53.What are classes in javascript?**
 
-**53.Explain Async/Await?**
+**54.Explain Async/Await?**
