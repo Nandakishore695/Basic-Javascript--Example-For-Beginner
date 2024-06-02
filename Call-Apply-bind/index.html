@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Call-Bind-Apply</title>
+    <style></style>
+</head>
+
+<body>
+    <script>
+        const userDetailNandakishore = {
+            name: "Nandakishore",
+            age: 28,
+            salary: 50000
+        }
+
+        const userDetaailPriya = {
+            name: "Priya",
+            age: 23,
+            salary: 42000
+        }
+
+        const printPersonSalaryIncrement = function (city,state) {
+            if(city && state){
+                console.log(`${this.name} Your salary increment with net amount is ${this.salary + 2500.00} and your from ${city,state}`)
+            }
+            else{
+                console.log(`${this.name} Your salary increment with net amount is ${this.salary + 2500.00}`)
+
+            }
+        }
+
+        //function borrowing 
+        printPersonSalaryIncrement.call(userDetailNandakishore)
+        printPersonSalaryIncrement.call(userDetaailPriya)
+
+        //Apply
+        printPersonSalaryIncrement.apply(userDetailNandakishore,["Hyderabad","Telangana"])
+
+        //bind
+        const res = printPersonSalaryIncrement.bind(userDetailNandakishore)
+        res();
+    </script>
+</body>
+
+</html>
