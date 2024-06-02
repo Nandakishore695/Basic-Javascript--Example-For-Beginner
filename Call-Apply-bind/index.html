@@ -42,6 +42,19 @@
         //bind
         const res = printPersonSalaryIncrement.bind(userDetailNandakishore)
         res();
+
+        function setUserName(userName) {
+            this.userName = userName;
+        }
+
+        function CreateUserName(userName,email,password) {
+            setUserName.call(this,userName)            
+            this.email = email;
+            this.password = password;
+        }
+
+        const response = new CreateUserName("ssk","ssk@gamil.com","123456")
+        console.log(response);
     </script>
 </body>
 
