@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KeyPress | KeyCode</title>
+</head>
+<body>
+<p >
+    <table border="1">
+        <tr>
+            <th>Key</th>
+            <th>KeyCode</th>
+            <th>Code</th>
+        </tr>
+        <tr>
+            <td id="key">Jill</td>
+            <td id="keyCode">Smith</td>
+            <td id="code">50</td>
+        </tr>
+        </table>
+</p>
+    <script>
+        const key = document.querySelector("#key");
+        const keyCode = document.querySelector("#keyCode");
+        const code = document.querySelector("#code");
+
+        window.addEventListener("keydown", (e) => {
+            key.innerHTML = e.key === " " ? "space" : e.key;
+            keyCode.innerHTML = e.keyCode;
+            code.innerHTML = e.code;
+        })
+    </script>
+    
+</body>
+</html>
