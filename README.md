@@ -398,7 +398,7 @@ let stringWithQuotes = `This is a string with single 'quotes' and double "quotes
 **39.Different between `IF/ELSE` vs `Switch`?**
 - Both If-else and Switch both are use excuite the conditional the main difference between is if-else statement is executed based on the multiple condition like using logical operator. On the other and switch statements execute as per the user decision.
   
-**40.What is the use of using strict mode?**
+**40. What is the use of strict mode?**
 - Strict mode is a feature that was introduced in ECMAScript 5 to help developers write and maintainable code by catching common mistakes and preventing the certain error
 ```
 <script>
@@ -410,39 +410,43 @@ function myFunction(a,a) { //show error duplicate defined a parameter
 myFunction(5,5)
 <script>
 ```
-**41.What is the different between `Arrow function` and `Normal function`?**
+**41. What is the difference between `Arrow function` and `Normal function`?**
 - Arrow functions do not have their own this context.
-- egular functions have their own this context, 
+- regular functions have their own this context, 
 
-**42.Explain about loops different between?**
+**42. Explain about loops different between?**
 
-**43.What is bug explain?**
+**43. What is bug explain?**
 - Bugs are completely normal in software development
-- Problem in a computer program. Basically, any unexpected or unintended behavior of a computer program is a software bug.
-- A real bug which was cause an error in harvard's computer in the 1940s
+- Problem in a computer program. Any unexpected or unintended behavior of a computer program is a software bug.
+- A real bug that causes an error in Harvard's computer in the 1940s
 
-**44.What are debugging tool?**
+**44. What are debugging tools?**
 - Debugging tools are essential for web developers to identify and fix issues in their code.
 - Console, Debugging, Postman, Redux DevTool
 
-**45.What is the different between if else and ternary?**
+**45. What is the difference between if-else and ternary?**
 
-**46.How we handle error in javascript?**
+**46. How do we handle errors in javascript?**
 
-**47.What is event bubbling and capturing?**
+**47. What is event bubbling and capturing?**
 
-**48.Why do we use the word “debugger” in JavaScript?**
-- The word “debugger” is used in JavaScript to refer to a tool that can be used to step through JavaScript code line by line. This can be helpful for debugging JavaScript code, which is the process of finding and fixing errors in JavaScript code. 
+**48. Why do we use the word “debugger” in JavaScript?**
+- The word “debugger” is used in JavaScript to refer to a tool that can step through JavaScript code line by line. This can help debug JavaScript code, which is the process of finding and fixing errors in JavaScript code. 
 
-**49.Type Coercion in javascript?**
+**49. Type Coercion in javascript?**
 - Implicit type coercion in javascript is the automatic conversion of value from one data type to another. It takes place when the operands of an expression are of different data types.
 
-**45.What is currying in JavaScript?**
+**45. What is currying in JavaScript?**
 
 **51.Explain call(), apply() and, bind() methods?**
 
-**52.What do you mean by BOM?**
+**52. What do you mean by BOM?**
 
-**53.What are classes in javascript?**
+**53. What are classes in javascript?**
 
-**54.Explain Async/Await?**
+**54. Explain Async/Await?**
+
+**55. What is the difference between Single-thread and multi-thread?**
+
+**56. What is the difference between synchronous and asynchronous?**  
