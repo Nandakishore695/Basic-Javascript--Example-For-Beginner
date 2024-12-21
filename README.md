@@ -34,9 +34,10 @@ There are two types of data types in JavaScript:-
 | String  | Object |
 | Number  | Array |
 | Boolean  | RegExp |
-| Undefined |  |
+| Undefined | Function |
 | null |  |
 | Symbol | | |
+| BihInt | | |
 
 - String:- Represents a series of characters. A string can be represented in either single (' ') or double (" ") quotes,  
 
