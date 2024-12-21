@@ -19,7 +19,7 @@ There are three ways to write javascript code:
 3. External file
 
 **4. What does "use strict" mean?**
-- Strict mode is introduced in (ES5). Using strict mode is a way to tell the javascript engine to enforce stricter rules during code execution. By adding 'use strict' at the beginning of a script
+- Strict mode is introduced in (ES5). Using strict mode is a way to tell the javascript engine to enforce stricter rules during code execution
 ```
 Example: -
 x = 9; // Throws ReferenceError: x is not defined
