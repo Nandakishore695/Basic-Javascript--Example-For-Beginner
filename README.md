@@ -1,30 +1,30 @@
-# Basic Javascript Questions and Answer
+# Basic Javascript Questions and Answers
 
 **History of Javascript**
 
-- JavaScript was invented by Brendan Eich in 1995.It was originally named Mocha, but quickly became known as LiveScript and, later, JavaScript. and interpreted language with single threaded
+- JavaScript was invented by Brendan Eich in 1995. It was originally named Mocha but quickly became known as LiveScript and, later, JavaScript. It interpreted language with single-threaded
 
-**1.What is JavaScript?**  
-- JavaScript is a client-side scripting language used to create dynamic features for web applications, making them more user-friendly and engaging.(e.g :-clickable buttons, popup menus, etc.)
+**1. What is JavaScript?**  
+- JavaScript is a client-side scripting language used to create dynamic features for web applications, making them more user-friendly and engaging. (e.g., clickable buttons, popup menus, etc.)
 
 **2.What is vanilla javascript?**
-- Vanilla JavaScript mean pure javaScript code that is written without external libraries or frameworks.
+- Vanilla JavaScript means pure JavaScript code written without external libraries or frameworks.
   
-**3.How to add JavaScript to html?**
+**3. How to write JavaScript code in HTML?**
 
-There are three ways to write or add  javascript code are: 
+There are three ways to write javascript code: 
 
 1. Embedding code
 2. Inline code
 3. External file
 
-**4.What does "use strict"?**
+**4. What does "use strict"?**
 - Strict mode is introduced in (ES5). Strict mode is useful in situations where you can create a global variables can create bugs in the code 
 ```
 x = 9; // ReferenceError: x is not defined
 ```
    
-**5.What are Data Types?**
+**5. What are Data Types?**
 
 There are two types of data types in JavaScript:-
 
@@ -37,7 +37,7 @@ There are two types of data types in JavaScript:-
 | null |  |
 | Symbol | | |
 
-- String :- Represents a series of characters.A string can be represented in either single (' ') or double (" ") quotes,  
+- String:- Represents a series of characters. A string can be represented in either single (' ') or double (" ") quotes,  
 
 **6.Difference between “ == “ and “ === “ operators?**
 
