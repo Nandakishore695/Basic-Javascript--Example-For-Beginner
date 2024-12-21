@@ -14,14 +14,15 @@
 
 There are three ways to write javascript code: 
 
-1. Embedding code
-2. Inline code
+1. Inline code
+2. Internal code
 3. External file
 
-**4. What does "use strict"?**
-- Strict mode is introduced in (ES5). Strict mode is useful in situations where you can create a global variables can create bugs in the code 
+**4. What does "use strict" mean?**
+- Strict mode is introduced in (ES5). Using strict mode is a way to tell the javascript engine to enforce stricter rules during code execution. By adding 'use strict' at the beginning of a script
 ```
-x = 9; // ReferenceError: x is not defined
+Example: -
+x = 9; // Throws ReferenceError: x is not defined
 ```
    
 **5. What are Data Types?**
